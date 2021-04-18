@@ -1,4 +1,4 @@
 # Django-learning-note
 
-* REST API
-Representational State Transfer
+- REST API
+* Representational State Transfer
