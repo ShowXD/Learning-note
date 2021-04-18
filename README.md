@@ -31,3 +31,6 @@ path('(想要的名稱 hello)/', 哪個功能的 view),
 </br>
 - model.DataTimeField(auto_now=True)
 </br>更新你每次修改的時間</br>
+
+- model.DataTimeField(auto_now_add=True)
+</br>什麼時候創造的</br>
