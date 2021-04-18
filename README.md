@@ -26,4 +26,7 @@ path('(想要的名稱 hello)/', 哪個功能的 view),
 ### Models
 - 定義資料庫裡的結構(schema)，後透過 Django 裡的指令來建立資料庫
 - 預設資料庫為 SQLite ，欲更改請到 setting.py
------我是分隔線-----</br>
+</br>
+-----我是分隔線-----
+- model.DataTimeField(auto_now=True)
+</br>更新你每次修改的時間</br>
