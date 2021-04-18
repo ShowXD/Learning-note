@@ -33,12 +33,18 @@ path('(想要的名稱 hello)/', 哪個功能的 view),
 ### model.DataTimeField(auto_now_add=True)
 - 什麼時候創造的
 
-
-## Migrations
-- 紀錄你更新那些東西(Models.py)
+## 資料庫
+- 預設會自動加入 ID 欄位
+### Migrations
+- 紀錄你在檔案裡更新哪些東西(Models.py)
+- 紀錄
+```
+pythom manager.py makemigrations
+```
 
 ### Migrate
 - 根據 Migrations 所建立的檔案去更新你的 Database
+- 執行
 ```
 python manage.py migrate
 ```
