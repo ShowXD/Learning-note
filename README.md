@@ -38,6 +38,9 @@ path('(想要的名稱 hello)/', 哪個功能的 view),
 ### models.DataTimeField(auto_now_add=True)
 - 什麼時候創造的
 
+### XXX.object.get(pk=3)
+- PK 為 Primary Key，一般是指 ID
+
 ## 資料庫
 - 預設會自動加入 ID 欄位
 ### Migrations
