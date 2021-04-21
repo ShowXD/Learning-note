@@ -1,5 +1,6 @@
 # Decorator-learning-note
 
+- 在已經完成的函式用簡單的方式來修改並重新定義
 - 將傳入的函式進行"修飾"後，再 return 出去
 
 ## 範例
