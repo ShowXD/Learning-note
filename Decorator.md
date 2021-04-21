@@ -62,6 +62,30 @@ if __name__ == "__main__":
     dog_bark()
 ```
 
+### 參數
+```
+import time
+
+def print_func_name(time):
+    def decorator(func):
+        def wrap():
+            print("Now use function '{}'".format(func.__name__))
+            print("Now Unix time is {}.".format(int(time)))
+            func()
+        return wrap
+    return decorator
+
+
+@print_func_name(time=(time.time()))
+def dog_bark():
+    print("Bark !!!")
+
+
+if __name__=="__main__":
+    dog_bark()
+
+```
+
 ## Closure
 - local scope 的變數在下一層不會清除
 - 預設是唯獨
