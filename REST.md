@@ -1,5 +1,3 @@
-# Django-learning-note
+# REST-API
 
-## REST API
 - 他是一種規範
-
