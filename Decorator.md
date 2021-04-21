@@ -1,6 +1,6 @@
 # Decorator-learning-note
 
-- 將傳入的韓式進行"修飾"後，再 return 出去
+- 將傳入的函式進行"修飾"後，再 return 出去
 
 ## 範例
 
