@@ -57,4 +57,4 @@ pythom manager.py makemigrations
 python manage.py migrate
 ```
 
--[]123
+- [ ] 123
