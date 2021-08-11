@@ -1,4 +1,4 @@
-# Reinforcement
+# Reinforcement-learning
  This note is learning from HiSKIO
 
 ## 何謂是強化學習
