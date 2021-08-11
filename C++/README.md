@@ -1,4 +1,4 @@
-# C--learning-note
+# C++
 
 ## C++ 函式庫
 ### iostream
