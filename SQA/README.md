@@ -2,7 +2,7 @@
 軟體質量保證（SQA-Software Quality Assurance）
 
 * [軟體品質簡介](README.md#品質)
-* [錯與除錯]
+* [錯與除錯](README.md#BUG)
 * [軟體測試]
 
 ## 品質
