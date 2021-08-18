@@ -1,5 +1,7 @@
 # 軟體品質與測試
 * 軟體質量保證（SQA-Software Quality Assurance）
+---
+* (品質)[]
 
 ## 品質
 * 超自然觀點
