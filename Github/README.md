@@ -14,3 +14,7 @@ git merge
 ```
 git pull
 ```
+
+## 新建並切換至新分支
+```
+git checkout
