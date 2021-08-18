@@ -1,7 +1,7 @@
 # 軟體品質與測試
 軟體質量保證（SQA-Software Quality Assurance）
 
-* (軟體品質簡介)
+* (軟體品質簡介)[https://github.com/ShowXD/Learning-note/blob/main/SQA/README.md#%E5%93%81%E8%B3%AA]
 * (錯與除錯)
 * (軟體測試)
 
