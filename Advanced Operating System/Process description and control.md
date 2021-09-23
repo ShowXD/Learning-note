@@ -1,5 +1,4 @@
-# 高等作業系統(Advanced Operating System)
-Process description and control
+# 過程描述和控制(Process description and control)
 
 # 開機(Boot)
 
