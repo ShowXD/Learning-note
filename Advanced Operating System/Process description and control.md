@@ -1,4 +1,5 @@
 # 高等作業系統(Advanced Operating System)
+Process description and control
 
 # 開機(Boot)
 
@@ -43,4 +44,6 @@
 * Supervisor call
 
 ### Process switching
-1. 
+1. 儲存process狀態: program counter、CPU狀態
+2. 更新control block: process state、update relevant
+3. 
