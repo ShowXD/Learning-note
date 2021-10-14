@@ -19,3 +19,7 @@ Lift(B, C)
 
 ## 空交易的測量(Null-Invariant Measures)
 * 不會受到出現率影響
+
+## 總和評估
+* 在空交易時，Lift 和 X平方 不是好的評估方法
+* 
