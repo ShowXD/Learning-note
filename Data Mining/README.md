@@ -1,8 +1,10 @@
 # Pattern 的評估(Pattern Evaluation)
 
 ## Limitation of the Support-Confidence Framework
+* 
 
-## Interestingness Measures
+## 興趣度的測量(Interestingness Measures)
+* 
 
 ### Lift
 ```
@@ -15,5 +17,5 @@ Lift(B, C)
 * Expected value(預測值)
 
 
-## Null-Invariant Measures(空交易)
+## 空交易的測量(Null-Invariant Measures)
 * 不會受到出現率影響
