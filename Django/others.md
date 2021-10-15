@@ -28,4 +28,5 @@ sudo service apache2 reload
 ```
 
 ## deplement 問題
-* 因設定只限頂顯示此專案時會產生不服的設定檔
+* 當設定 Deployment 時，倘若勾選 Visible only for this project 會自動產生新的"錯誤"的設定檔，因此需刪除。
+* Python interpreter需選定正確的(/tmp 是錯誤的 Path Mapping)
