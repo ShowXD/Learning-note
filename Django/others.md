@@ -26,3 +26,6 @@ pip install -r requirements.txt
 ```
 sudo service apache2 reload
 ```
+
+## deplement 問題
+* 因設定只限頂顯示此專案時會產生不服的設定檔
