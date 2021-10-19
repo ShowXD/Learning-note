@@ -22,7 +22,15 @@ M1007976
 * IntelliJ IDEA: The Capable & Ergonomic Java IDE by JetBrains
 
 # How to compile and execute my programs
-1. Open IntelliJ IDEA
-2. Open project
-3. Run "MailClient.java"
-4. 
+* Intellij IDEA
+1. Unzip "M1007976.rar"
+2. Open IntelliJ IDEA
+3. Open project, "M1007976"
+4. Run "MailClient.java"
+
+* CMD
+1. Unzip "M1007976.rar"
+2. Open CMD
+3. cd into "M1007976" folder
+4. javac MailClient.java
+5. java MailClient
