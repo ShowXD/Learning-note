@@ -146,6 +146,14 @@
 3. 再次掃描 DB ，建構FP-tree
 
 `Ex:`
+|TID|購買的物品|frequent items|
+|:---:|:---:|:---:|
+|100|{f,a,c,d,g,i,m,p}|{f,c,a,m,p}|
+|200|{a.b.c.f.l.m.o}|{f,c,a,b,m}|
+|300|{b,f,h,j,o,w}|{f,w}|
+|400|{b,c,k,s,p}|{c,b,p}|
+|500|{a,f,c,e,l,p,m,n}|{f,c,a,m,p}|
+
 |Item|frequency|head|
 |:---:|:---:|:---:|
 |f|4||
