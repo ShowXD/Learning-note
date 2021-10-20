@@ -124,3 +124,47 @@
 |Itemset|Sup|
 |---|:---:|
 |{B,C,E}|2|
+
+#### 改進與替代
+1. 減少DB掃描的次數
+2. 減少候選人的數量
+3. 探索特殊的數據結構
+
+#### Direct Hashing and Pruning(DHP)
+
+
+## Pattern 評估
+
+### 如何判斷這個 Pattern 的 Interestingness(興趣度)
+#### 客觀
+> 支持(support)
+> 信心(confident)
+> 相關性(correlation)
+
+#### 主觀
+* unexpected
+* freshness
+* timeliness
+
+#### 興趣度的測量
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
