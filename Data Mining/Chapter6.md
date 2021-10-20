@@ -13,9 +13,9 @@
 
 |Tid|購買的物品|
 |---|:---:|
-|10|Beer, Nuts, Diaper|
-|20|Beer, Coffee, Diaper|
-|30|Beer, Diaper, Eggs|
+|10|<font color=#800000>Beer</font>, Nuts, Diaper|
+|20|<font color=#800000>Beer</font>, Coffee, Diaper|
+|30|<font color=#800000>Beer</font>, Diaper, Eggs|
 |40|Nuts, Eggs, Milk|
 |50|Nuts, Coffee, Diaper, Eggs, Milk|
 ***
