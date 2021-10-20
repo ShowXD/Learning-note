@@ -22,10 +22,10 @@
 
 #### **absolute** support of X
 `交易中X出現的頻率`
-> ex: sup{Beer} = 3
->> ex: sup{Diaper} = 4
-> ex: sup{Beer, Diaper} = 3
-> ex: sup{Beer, Eggs} = 1
+> ex: sup{Beer} = 3 </br>
+> ex: sup{Diaper} = 4 </br>
+> ex: sup{Beer, Diaper} = 3 </br>
+> ex: sup{Beer, Eggs} = 1 </br>
 
 #### **relative** support of X
 `交易中包含X的機率`
