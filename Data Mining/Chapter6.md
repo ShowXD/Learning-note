@@ -59,6 +59,7 @@
 2. pruning
 
 * 如何計算候選人的sup
+1. 數
 
 `ex: 現有一個ItemSet，我們對其進行 Apriori:`
 
@@ -138,6 +139,21 @@
 
 #### Direct Hashing and Pruning(DHP)
 
+## FP-tree
+### 建構
+1. 掃描一次 DB，找到 1-itemset
+2. 依照降冪排序 frequent items 成為 f-list
+3. 再次掃描 DB ，建構FP-tree
+
+`Ex:`
+|Item|frequency|head|
+|:---:|:---:|:---:|
+|f|4||
+|c|4||
+|a|3||
+|b|3||
+|m|3||
+|p|3||
 
 ## Pattern 評估
 `如何判斷這個 Pattern 的 Interestingness(興趣度)`
