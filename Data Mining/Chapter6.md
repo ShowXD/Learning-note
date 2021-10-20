@@ -13,9 +13,9 @@
 
 |Tid|購買的物品|
 |---|:---:|
-|10|<font color=#800000>Beer</font>, Nuts, Diaper|
-|20|<font color=#800000>Beer</font>, Coffee, Diaper|
-|30|<font color=#800000>Beer</font>, Diaper, Eggs|
+|10|Beer, Nuts, Diaper|
+|20|Beer, Coffee, Diaper|
+|30|Beer, Diaper, Eggs|
 |40|Nuts, Eggs, Milk|
 |50|Nuts, Coffee, Diaper, Eggs, Milk|
 ***
@@ -32,3 +32,36 @@
 > ex: s{Beer} = 3/5 = 60% </br>
 > ex: s{Diaper} = 4/5 = 80% </br>
 > ex: s{Beer, Eggs} = 1/5 = 20% </br>
+
+### 集合
+> 令A、B為兩個集合，A的任意元素都是B的元素
+* 子集(subset)
+`A為B的子集`
+* 超集(superset)
+`子集(subset)的相反，A⊆B`
+* 真子集(powerset)
+`A 為 B 的真子集，A⊆B 且A≠B`
+
+### 先驗演算法(Apriori Algorithm)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
