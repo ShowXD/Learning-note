@@ -48,14 +48,29 @@
 > 假設 ab ∈ F、ac ∈ F、bc ∉ F </br>
 > 那麼abc就不可能為 F
 
+### 探勘關聯規則
+1. 基於Level、Join的方法：Apriori
+2. Vertical data format 的方法：Eclat
+3. 頻繁模式投影和增長：FPgrowth
 
+#### Apriori Algorithm
+`ex:`
+|Tid|Items|
+|---|:---:|
+|10|A,C,D|
+|20|B,C,E|
+|30|A,B,C,E|
+|40|B,E|
 
+> 1. 第一次掃描
 
-
-
-
-
-
+|Tid|Sup|
+|---|:---:|
+|{A}|2|
+|{B}|3|
+|{C}|3|
+|{D}|1|
+|{E}|3|
 
 
 
