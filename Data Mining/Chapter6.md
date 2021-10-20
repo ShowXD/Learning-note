@@ -54,6 +54,12 @@
 3. 頻繁模式投影和增長：FPgrowth
 
 #### Apriori Algorithm
+* 如何生成候選人
+1. self-joining
+2. pruning
+
+* 如何計算候選人的sup
+
 `ex: 現有一個ItemSet，我們對其進行 Apriori:`
 
 |Tid|Items|
