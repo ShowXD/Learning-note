@@ -134,21 +134,22 @@
 
 
 ## Pattern 評估
+> 如何判斷這個 Pattern 的 Interestingness(興趣度)
 
-### 如何判斷這個 Pattern 的 Interestingness(興趣度)
-#### 客觀
-> 支持(support)
-> 信心(confident)
-> 相關性(correlation)
+### 客觀
+* 支持(support)
+* 信心(confident)
+* 相關性(correlation)
 
-#### 主觀
+### 主觀
 * unexpected
 * freshness
 * timeliness
 
-#### 興趣度的測量
+## 興趣度的測量
 
-
+### Lift
+### x²
 
 
 
