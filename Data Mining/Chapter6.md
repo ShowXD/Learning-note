@@ -42,10 +42,10 @@
 * 真子集(powerset) </br>
 `A 為 B 的真子集，A⊆B 且A≠B`
 
-## 預前排除(Apriori pruning)
+### 預前排除(Apriori pruning)
 `如果一個集合沒有頻繁出現，那麼這個集合的超集合就不應該生成，因為不可能頻繁`
 > 令 a、b、c 為三個集合
-> 假設 ab ∈ F、ac ∈ F、bc ∉ F
+> 假設 ab ∈ F、ac ∈ F、bc ∉ F </br>
 > 那麼abc就不可能為 F
 
 
