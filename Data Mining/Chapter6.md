@@ -35,11 +35,11 @@
 
 ### 集合
 > 令A、B為兩個集合，A的任意元素都是B的元素
-* 子集(subset)
+* 子集(subset) </br>
 `A為B的子集`
-* 超集(superset)
+* 超集(superset) </br>
 `子集(subset)的相反，A⊆B`
-* 真子集(powerset)
+* 真子集(powerset) </br>
 `A 為 B 的真子集，A⊆B 且A≠B`
 
 ### 先驗演算法(Apriori Algorithm)
