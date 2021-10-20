@@ -10,4 +10,6 @@
 
 ### 重要資訊
 * FP-tree
-* 
+* Apriori Althorithm
+* Vertical Data
+* Lift 、x²(Timesquare)
