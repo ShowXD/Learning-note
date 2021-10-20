@@ -11,6 +11,8 @@
 * k-itemset: X = {x₁, ..., xᵏ}
 > ex: {Beer, Nuts, Diaper} 是3-itemset
 
+***
+
 #### **absolute** support of X
 `交易中X出現的頻率`
 > ex: sup{Beer} = 3
