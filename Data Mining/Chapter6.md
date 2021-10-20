@@ -8,7 +8,8 @@
 
 ### K-Itemsets
 `Itemsets:一個組合`
-k-itemset: X = {x₁, ..., xᵏ}
+``k-itemset: X = {x₁, ..., xᵏ}
 ex: {Beer, Nuts, Diaper} 是3-itemset
+``
 * support of X
 `這個set出現的頻率`
