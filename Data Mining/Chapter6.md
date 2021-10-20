@@ -11,6 +11,12 @@
 * k-itemset: X = {x₁, ..., xᵏ}
 > ex: {Beer, Nuts, Diaper} 是3-itemset
 
+|Tid|購買的物品|
+|10|Beer, Nuts, Diaper|
+|20|Beer, Coffee, Diaper|
+|30|Beer, Diaper, Eggs|
+|40|Nuts, Eggs, Milk|
+|50|Nuts, Coffee, Diaper, Eggs, Milk|
 ***
 
 #### **absolute** support of X
