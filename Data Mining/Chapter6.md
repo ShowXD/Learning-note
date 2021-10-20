@@ -23,7 +23,7 @@
 #### **absolute** support of X
 `交易中X出現的頻率`
 > ex: sup{Beer} = 3
-> ex: sup{Diaper} = 4
+>> ex: sup{Diaper} = 4
 > ex: sup{Beer, Diaper} = 3
 > ex: sup{Beer, Eggs} = 1
 
