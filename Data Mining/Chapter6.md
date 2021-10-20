@@ -54,8 +54,10 @@
 3. 頻繁模式投影和增長：FPgrowth
 
 #### Apriori Algorithm
-* 演算法的步驟 </br>
+* 演算法的步驟
+</br>
 `ex: 現有一個ItemSet，我們對其進行 Apriori:`
+</br>
 |Tid|Items|
 |---|:---:|
 |10|A,C,D|
