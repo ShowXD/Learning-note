@@ -29,6 +29,6 @@
 
 #### **relative** support of X
 `交易中包含X的機率`
-> ex: s{Beer} = 3/5 = 60%
-> ex: s{Diaper} = 4/5 = 80%
-> ex: s{Beer, Eggs} = 1/5 = 20%
+> ex: s{Beer} = 3/5 = 60% </br>
+> ex: s{Diaper} = 4/5 = 80% </br>
+> ex: s{Beer, Eggs} = 1/5 = 20% </br>
