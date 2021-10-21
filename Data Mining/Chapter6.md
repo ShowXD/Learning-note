@@ -139,6 +139,22 @@
 
 #### Direct Hashing and Pruning(DHP)
 
+## Hash-tree
+> 依照supset左右順序從下往上畫出
+`Ex:`
+||itemset|
+||:---:|
+||(a,c,d)|
+||(a,c,h)|
+||(a,c,k)|
+||(a,d,k)|
+||(a,h,k)|
+||(c,d,k)|
+||(c,h,k)|
+||(d,h,k)|
+||(f,h,j)|
+
+
 ## FP-tree
 ### 建構
 1. 掃描一次 DB，找到 1-itemset
