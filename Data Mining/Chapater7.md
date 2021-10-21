@@ -15,7 +15,7 @@
 ## Frequent Pattern 挖掘
 
 ### GSP Agorithm
-`步驟:
+`步驟:`
 1. 生成候選人
 2. 掃描DB
 3. 決定 frequent pattern
