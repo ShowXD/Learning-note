@@ -6,7 +6,7 @@
 
 `Ex:`
  
-|P1| |P2|
+|Program1(P1)| |Program2(P2)|
 |:---|---|:---|
 |...| |...|
 |Receive(P2);| |Receive(P1);|
