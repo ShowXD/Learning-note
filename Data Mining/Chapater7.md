@@ -20,3 +20,5 @@
 2. 掃描DB
 3. 決定 frequent pattern
 4. 重複執行直到沒有候選人
+
+### AprioriALL
