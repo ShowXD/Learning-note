@@ -157,3 +157,9 @@
 ▲ Available vector **V**
 
 **發生Unsafe**
+
+### 復原策略(Deadlock Recovery Strategies)
+1. 將已發生 Deadlock 的 processes 捨棄
+2. 讀取發生 Deadlock 之前的 checkpoint，之後重新啟動
+3. 依次捨棄發生 Deadlock 的 process，直到 Deadlock 不再存在，每次發生 Deadlock 必須執行 Deadlock detection algorithm
+4. 依次搶占資源，直到 Deadlock 不再存在，每次發生 Deadlock 必須執行 Deadlock detection algorithm
