@@ -2,5 +2,6 @@
 
 ## 死結(Deadlock)
 * Deadlock occurs if receive is blocking
+
 `Ex:`
  
