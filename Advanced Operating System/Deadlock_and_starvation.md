@@ -16,7 +16,15 @@
 ### 條件(Condition for Deadlock)
 1. Mutual exclusion
 2. Hold-and-wait
-3. 不可搶奪
-> (No preemption)
-4. 互相等待
-> (Circular)
+3. 不可搶奪(No preemption)
+4. 互相等待(Circular)
+
+### 對付的方法
+* prevention
+> 消除其中一個condition
+* avoidance
+> 根據資源分配的當前狀態做出適當的動態選擇
+* detection
+> 嘗試檢測 Deadlock 的存在並採取措施恢復
+
+
