@@ -141,6 +141,7 @@
 
 ## Hash-tree
 > 依照supset左右順序從下往上畫出
+</br>
 `Ex:`
 ||itemset|
 ||:---:|
