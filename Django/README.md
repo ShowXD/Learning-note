@@ -1,12 +1,12 @@
 # Django
 
 ##### REST API (Representational State Transfer)
-- 一種網路架構
+`一種網路架構`
 
 ##### CRUD (Create, Retrieve, Update, Delete)
 
 ## APP
-- 一個功能，一個APP
+`通常是以功能性來分類`
 
 - 新增一個APP
 ```
@@ -26,7 +26,7 @@ path('(想要的名稱 hello)/', 哪個功能的 view),
 ```
 
 ## Models
-- 定義資料庫裡的結構(schema)，後透過 Django 裡的指令來建立資料庫
+`定義資料庫裡的結構(schema)，後透過 Django 裡的指令來建立資料庫`
 - 預設資料庫為 SQLite ，欲更改請到 setting.py
 
 ### models.TextField(default="XXX")
