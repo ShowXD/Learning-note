@@ -8,7 +8,7 @@
 ### The SPADE Algorithm
 
 |SID|EID|Items|
-|:---:|:--:-|:---:|
+|:---:|:---:|:---:|
 |1|1|a|
 |1|2|abc|
 |1|3|ac|
