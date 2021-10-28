@@ -6,7 +6,7 @@
 * 
 
 ### The SPADE Algorithm
-`E`
+`Ex:`
 |SID|EID|Items|
 |:---:|:---:|:---:|
 |1|1|a|
