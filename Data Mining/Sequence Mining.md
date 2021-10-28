@@ -6,7 +6,7 @@
 * 
 
 ### The SPADE Algorithm
-
+`E`
 |SID|EID|Items|
 |:---:|:---:|:---:|
 |1|1|a|
@@ -14,3 +14,6 @@
 |1|3|ac|
 |1|4|d|
 |1|5|cf|
+#### 應用
+* 找到最大時間間隔(Without Max.Gap Time Constraints)
+* 找到最小時間間隔(Without Min.Gap Time Constraints)
