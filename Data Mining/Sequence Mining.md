@@ -6,7 +6,6 @@
 * 
 
 ### The SPADE Algorithm
-* 垂直格式
 
 |SID|EID|Items|
 |:---:|:--:-|:---:|
