@@ -1,5 +1,11 @@
 # Github 指令操作
 
+## Commit
+### 選擇所有已變更的檔案
+```
+git add .
+```
+
 ## 分支
 ### 新建並切換至新分支XXX
 ```
@@ -24,4 +30,17 @@ git pull
 ### 123
 ```
 git remote -v
+```
+
+### 分支合併
+1. 開啟 rebase
+```
+git rebase -i dev(分支的名稱)
+```
+2. 將pick取代成squash
+`假設現在有3個pick，最新的commit訊息是我們目前要commit的Summarize，`
+`那麼將最後兩個pick更改為squash。`
+
+```
+squash
 ```
