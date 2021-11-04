@@ -5,3 +5,19 @@
 ```
 Gain(A) = Info(D) - InfoA(D)
 ```
+
+## 決策樹(Decision Tree)
+### Measure
+* Gain ratio
+* Gini index
+
+### Overfitting
+* Prepruning
+* Postpruning1
+
+## 貝氏定理(Bayes' theorem)
+
+## 線性回歸(Linear regression)
+`步驟`
+1. 找出線性方程式
+
