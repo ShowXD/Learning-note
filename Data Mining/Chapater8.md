@@ -28,3 +28,12 @@ Gain(A) = Info(D) - InfoA(D)
 * 每份裡頭比例相同
 
 ### Bootstrap
+
+GSP
+受選人
+決策數如何建立
+decision tree
+貝式定理推論類別
+評估方式
+beggiing
+boosting
