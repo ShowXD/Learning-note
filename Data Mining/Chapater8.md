@@ -21,3 +21,10 @@ Gain(A) = Info(D) - InfoA(D)
 `步驟`
 1. 找出線性方程式
 
+## Classifier Evakuation
+### Holdout method
+### Cross-validation
+`Stratified`
+* 每份裡頭比例相同
+
+### Bootstrap
