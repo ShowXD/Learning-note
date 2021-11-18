@@ -1,11 +1,20 @@
-# Cluster Analysis
+# 分群分析(Cluster Analysis)
 
-## Considerations
+## 考慮(Considerations)
+
 - Partitioning criteria
 - Separation of lusters
 - Similarity measure
 - Clustering space
 > 密度的考慮
 >> Full space
+>> 
 >> Subspace
+
+## 挑戰(Challenges)
+
+- Quality
+- Scalability
+- Constraint-based clustering
+- Interpretability and usability
 
