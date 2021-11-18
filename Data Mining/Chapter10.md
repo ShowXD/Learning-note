@@ -7,8 +7,8 @@
 - Similarity measure
 - Clustering space
 > 密度的考慮
->> Full space
->> Subspace
+>> 1. Full space
+>> 2. Subspace
 
 ## 挑戰(Challenges)
 
