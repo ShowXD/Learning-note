@@ -32,7 +32,10 @@
 ## K-Medoids
 - 用途: 找出代表性的點
 
-# K-Medians
+## K-Medians
 - 用途: 找出中位數
 - 作法:
   1. 選定K點
+
+## K-Modes
+* 以頻率來算的
