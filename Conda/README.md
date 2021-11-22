@@ -21,7 +21,7 @@ conda activate asdfasdf
 ```
 
 3. 安裝 pytorch
-* (官網安裝連結)[https://pytorch.org/]
+* [官網安裝連結](https://pytorch.org/)
 ```
 conda install pytorch torchvision -c pytorch
 ```
