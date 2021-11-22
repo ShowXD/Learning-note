@@ -14,25 +14,26 @@ conda list
 ```
 conda create -n asdfasdf python=3.7
 ```
-
+</br>
 2. 啟動環境
 ```
 conda activate asdfasdf
 ```
-
+</br>
 3. 安裝 pytorch
 * [官網安裝連結](https://pytorch.org/)
 ```
 conda install pytorch torchvision -c pytorch
 ```
-
+</br>
 4. 確認已下載套件
 
 ```
 conda list
 ```
-
+</br>
 5. 啟動jupyter
 ``` 
 jupyter notebook
 ```
+</br>
