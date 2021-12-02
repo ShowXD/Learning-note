@@ -1,0 +1,4 @@
+# Basic replacement algorithm
+1. 沒值填空格，聽完後指標下移
+2. 相同的值跳過
+3. 每個值剛填入都有一次免死金牌
