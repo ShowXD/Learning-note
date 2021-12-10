@@ -47,3 +47,14 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+## 回退 migration
+1. 進入虛擬環境
+```
+source Industry_Academy/venv/bin/activate
+```
+
+2. 退回需要的版本
+```
+python manage.py migrate [APP的名稱]
+```
+3. 
