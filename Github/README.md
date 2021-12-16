@@ -54,3 +54,10 @@ git rebase -i dev(分支的名稱)
 ```
 squash
 ```
+
+## 其他
+### 查看指令歷史
+```
+history
+```
+
