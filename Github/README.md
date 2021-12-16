@@ -6,6 +6,11 @@
 git add .
 ```
 
+### 編輯要 commit 的內容
+```
+git commit --amend
+```
+
 ### 強制 Commit
 ```
 git push -f
