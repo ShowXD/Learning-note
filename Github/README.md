@@ -1,6 +1,22 @@
 # Github 指令操作
 
 ## Commit
+### 回退版本
+#### 現在最新(弄爽的?)
+```
+git reset HEAD
+```
+
+#### 上一個版本
+```
+git reset HEAD~
+```
+
+#### 上上個版本
+```
+git reset HEAD~2
+```
+
 ### 選擇所有已變更的檔案
 ```
 git add .
