@@ -93,4 +93,5 @@ CREATE DATABASE {database name};
 
 ## 特殊問題
 * 當我直接initDB並直接啟用時，postgres不能夠登入?
+<\br>
 `答: 可嘗試使用你作業系統的帳號進行登入`
