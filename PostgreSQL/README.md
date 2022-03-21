@@ -53,6 +53,11 @@ psql -U {username} -d {database name}
 psql -U {username} {database name} < {database_name.sql}
 ```
 
+* 查看指定資料庫可存取的身分組
+```
+psql -c "\du;" -d {database name}
+```
+
 ## 資料庫內指令
 `以下指令皆已登入postgres`
 
@@ -80,3 +85,7 @@ CREATE DATABASE {database name};
 ```
 \q
 ```
+
+## 特殊問題
+* 當我直接initDB並直接啟用時，postgres不能夠登入?
+`答: 可嘗試使用你作業系統的帳號進行登入`
