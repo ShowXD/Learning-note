@@ -32,6 +32,11 @@ set PGDATA={path with stored pgdata folder}
 psql -C "command here;" {username}
 ```
 
+* 設定pgData
+```
+pg_ctl restart -D [insert directory location here]
+```
+
 * 建立一個新的 PostgreSQL 資料庫叢集
 `資料庫叢集是以單一個伺服器實例管理許多資料庫的單位`
 ```
