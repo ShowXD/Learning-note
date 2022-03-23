@@ -2,9 +2,9 @@
 
 ### 梯度下降(Gradient descent)
 1. Start with random values
-2. Slightly move  $x_2$ $ θ_0 $ and θ1 to reduce J(θ0, θ1)
+2. Slightly move $ θ_0 $ and θ1 to reduce J(θ0, θ1)
 3. Keep doing step 2 until converged
-
+ $x_2$
 ### 早停法(Early stop)
 `透過調整 learning rate 用來幫助又快又精準的找到最佳解`
 
