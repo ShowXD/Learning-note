@@ -59,13 +59,14 @@ from sklearn.precrocessing import LabelEncoder
   * 容易受極端值影響
 
 ### Mean Absolute Error(MAE)
-* Criticsm
+* Criticism
   * Not a normalized measure
   * Tend to be influenced by outliers
 
 ### Median Absolute Error(MedAE)
 * 解決極端值問題
-* Not a normalized measure
+* Criticism
+ * Not a normalized measure
 
 ### R2 score(coefficient of determination)
 * Normalized measure
