@@ -51,4 +51,27 @@ from sklearn.precrocessing import LabelEncoder
 `粗略簡介各神經網路的特點`
 ### Linear regression
 
-### 
+## 模型平估(Model Evaluation)
+
+### Mean Square Error(MSE)
+* Criticism
+  * Not a normalized measure
+  * 容易受極端值影響
+
+### Mean Absolute Error(MAE)
+* Criticsm
+  * Not a normalized measure
+  * Tend to be influenced by outliers
+
+### Median Absolute Error(MedAE)
+* 解決極端值問題
+* Not a normalized measure
+
+### R2 score(coefficient of determination)
+* Normalized measure
+* Max: 1
+* Min: -Infinite
+
+
+
+
