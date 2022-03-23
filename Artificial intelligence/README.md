@@ -2,7 +2,7 @@
 
 ### 梯度下降(Gradient descent)
 1. Start with random values
-2. Slightly move $ θ_0 $ and θ1 to reduce J(θ0, θ1)
+2. Slightly move  $x_2$ $ θ_0 $ and θ1 to reduce J(θ0, θ1)
 3. Keep doing step 2 until converged
 
 ### 早停法(Early stop)
