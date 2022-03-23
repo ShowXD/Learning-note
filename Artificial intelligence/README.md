@@ -5,6 +5,9 @@
 2. Slightly move θ0 and θ1 to reduce J(θ0, θ1)
 3. Keep doing step 2 until converged
 
+### 早停法(Early stop)
+`透過調整 learning rate 用來幫助又快又精準的找到最佳解`
+
 
 ## 常見的縮寫
 * Features `x`
