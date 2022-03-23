@@ -8,6 +8,12 @@
 ### 早停法(Early stop)
 `透過調整 learning rate 用來幫助又快又精準的找到最佳解`
 
+### 需要停止學習的時機
+* Improvement drops
+* Reached small error
+* Achieved predefined # of iterations
+* No time to train anymore
+
 
 ## 常見的縮寫
 * Features `x`
@@ -17,9 +23,12 @@
 * Learning rate `α`
 
 ## 資料前處理
+
 ### One-hot encoding
+* 可用來全數都可分類的問題上
 
 ### Label encoding
+* 會有數值遠近的問題
 
 ## 神經網路
 `粗略簡介各神經網路的特點`
