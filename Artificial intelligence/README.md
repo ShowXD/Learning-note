@@ -1,5 +1,10 @@
 # 人工智慧
 
+## 問題分類
+* classification
+* regression
+* clustering dimensionality reduction
+
 ### 梯度下降(Gradient descent)
 1. Start with random values
 2. Slightly move θ0 and θ1 to reduce J(θ0, θ1)
