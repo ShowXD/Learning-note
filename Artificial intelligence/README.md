@@ -30,6 +30,11 @@
 ### Label encoding
 * 會有數值遠近的問題
 
+`Ex:`
+```
+from sklearn.precrocessing import LabelEncoder
+```
+
 ## 神經網路
 `粗略簡介各神經網路的特點`
 ### Linear regression
