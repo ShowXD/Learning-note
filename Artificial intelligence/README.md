@@ -64,6 +64,9 @@ from sklearn.precrocessing import LabelEncoder
 * 速度快
 * 不需要training
 
+### Logistic regression
+
+
 ## 模型平估(Model Evaluation)
 
 ### Mean Square Error(MSE)
