@@ -6,6 +6,13 @@
 * clustering
 * dimensionality reduction
 
+## 名詞定義
+* Accuracy
+ * 越高不一定越準，越低也不一定越差
+  * `ex`: 癌症機率1%，全猜有準確率99%，跟屎一樣
+
+* Precision
+
 ## 常見的縮寫
 * Features `x`
 * Target `y`
@@ -46,6 +53,7 @@ from sklearn.precrocessing import LabelEncoder
 * 不需要training
 
 ### Logistic regression
+* 一種分類的方法
 
 #### Multi-class logistic regression
 * 別名: softmax function
