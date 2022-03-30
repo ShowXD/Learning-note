@@ -1,5 +1,9 @@
 # 人工智慧
 
+### 取log
+* 方便計算
+* 乘法變加法
+
 ## 問題分類
 * classification
 * regression
