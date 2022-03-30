@@ -51,6 +51,7 @@ from sklearn.precrocessing import LabelEncoder
 ## 神經網路
 `粗略簡介各神經網路的特點`
 ### Linear regression
+* 容易受極端值影響
 
 ### K nearest Neighbor(KNN)
 `拿來作前處理`
