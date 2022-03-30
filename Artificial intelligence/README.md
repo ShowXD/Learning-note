@@ -52,6 +52,14 @@ from sklearn.precrocessing import LabelEncoder
 `粗略簡介各神經網路的特點`
 ### Linear regression
 
+### K nearest Neighbor(KNN)
+`拿來作前處理`
+
+#### K Nearest Neighbor Classifier
+`K是一項hyperpaarmeter`
+* K 代表尋找最近的幾個
+ * ex: K=1 找最近的一個就歸類為那類
+
 ## 模型平估(Model Evaluation)
 
 ### Mean Square Error(MSE)
