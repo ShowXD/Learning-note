@@ -47,6 +47,10 @@ from sklearn.precrocessing import LabelEncoder
 
 ### Logistic regression
 
+#### Multi-class logistic regression
+* 別名: softmax function
+* Training: apply gradient ascent to updata all tida
+* Prediction: find tida that maximizes
 
 ## 模型平估(Model Evaluation)
 
