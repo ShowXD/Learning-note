@@ -1,33 +1,10 @@
 # 人工智慧
 
-### 取log
-* 方便計算
-* 乘法變加法
-
 ## 問題分類
 * classification
 * regression
 * clustering
 * dimensionality reduction
-
-### 梯度下降(Gradient descent)
-1. Start with random values
-2. Slightly move θ0 and θ1 to reduce J(θ0, θ1)
-3. Keep doing step 2 until converged
-
-### 早停法(Early stop)
-`透過調整 learning rate 用來幫助又快又精準的找到最佳解`
-
-### 需要停止學習的時機
-* Improvement drops
-* Reached small error
-* Achieved predefined # of iterations
-* No time to train anymore
-
-### 解決 overfitting 的問題
-* 降低features的數量
-* Regularzation: 維持現有的features，但降低不重要feature的影響力
-
 
 ## 常見的縮寫
 * Features `x`
@@ -94,5 +71,32 @@ from sklearn.precrocessing import LabelEncoder
 * Min: -Infinite
 
 
+## 如何找出最好tida
 
+### closed form solution
+* No cloased form solution for logistic regression
+
+### 梯度下降(Gradient descent)
+1. Start with random values
+2. Slightly move θ0 and θ1 to reduce J(θ0, θ1)
+3. Keep doing step 2 until converged
+
+### 梯度上升(Gradient ascent)
+
+### 早停法(Early stop)
+`透過調整 learning rate 用來幫助又快又精準的找到最佳解`
+
+### 需要停止學習的時機
+* Improvement drops
+* Reached small error
+* Achieved predefined # of iterations
+* No time to train anymore
+
+### 解決 overfitting 的問題
+* 降低features的數量
+* Regularzation: 維持現有的features，但降低不重要feature的影響力
+
+### 取log
+* 方便計算
+* 乘法變加法
 
