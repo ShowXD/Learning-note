@@ -59,6 +59,9 @@ from sklearn.precrocessing import LabelEncoder
 `K是一項hyperpaarmeter`
 * K 代表尋找最近的幾個
  * ex: K=1 找最近的一個就歸類為那類
+* K通常為奇數，防止平手的狀況
+* 速度快
+* 不需要training
 
 ## 模型平估(Model Evaluation)
 
