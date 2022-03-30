@@ -10,6 +10,7 @@
 * Accuracy
   * 越高不一定越準，越低也不一定越差
     * `ex`: 癌症機率1%，全猜有準確率99%，跟屎一樣
+
 |total population|prediction positive|prediction negative|
 |---|---|---|
 |condition positive|True Positive(TP)|False Negative(FN)|
