@@ -7,7 +7,7 @@
 * dimensionality reduction
 
 ## 名詞定義
-* Accuracy
+* Accuracy(準確度)
   * 越高不一定越準，越低也不一定越差
     * `ex`: 癌症機率1%，全猜有準確率99%，跟屎一樣
 
@@ -16,8 +16,11 @@
 |condition positive|True Positive(TP)|False Negative(FN)|
 |condition negative|False Positive(FP)|True Negative(TN)|
 
-* Precision
+* Precision(正確性)
   * 預測為 postive 中，有多少比例是真的 positive
+
+* F1-score
+  * 包括 presicion 和 recall 的數值
 
 ## 常見的縮寫
 * Features `x`
