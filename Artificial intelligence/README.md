@@ -15,7 +15,9 @@
 |---|---|---|
 |condition positive|True Positive(TP)|False Negative(FN)|
 |condition negative|False Positive(FP)|True Negative(TN)|
+
 * Precision
+  * 預測為 postive 中，有多少比例是真的 positive
 
 ## 常見的縮寫
 * Features `x`
