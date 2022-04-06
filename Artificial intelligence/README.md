@@ -61,6 +61,17 @@ from sklearn.precrocessing import LabelEncoder
 * 速度快
 * 不需要training
 
+### Support vectir machine(SVM)
+
+#### Kernel SVM
+`藉由資料轉換成更高維度來進行分類`
+* 理論上可無窮大
+* 2D 的資料可轉換成 3D 稱為 Kernel
+* 經常使用的kernel
+  * Linear kernel
+  * Polynomial kernal
+  * Gaussian(RBF) kernal
+
 ### Logistic regression
 * 一種分類的方法
 
