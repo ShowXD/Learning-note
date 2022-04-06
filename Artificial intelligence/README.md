@@ -72,6 +72,14 @@ from sklearn.precrocessing import LabelEncoder
   * Polynomial kernal
   * Gaussian(RBF) kernal
 
+#### SVM in Scikit learn(SVR)
+`SVM 在 scikit learn 裡面`
+* `C`: 控制模型對錯誤的容忍度
+* kernel
+  * linear
+  * poly, 使用`degree`控制模型複雜度
+  * rbf, 使用`gamma`控制模型複雜度
+
 ### Logistic regression
 * 一種分類的方法
 
