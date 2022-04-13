@@ -17,13 +17,16 @@
 * Robust scaling: scale features by <b>removing the outliears</b>
   * 基本上和 Min-max scaling 類似，但提供更好的範圍給高度偏態分布的資料
   * 不容易受到異常質影響
+
 * Thresholding
 * Applying log or exponential function
 
 ## 遇到 Missing value 的處理方法
-* feature type is categorical
+* Categorical
   * 使用出現次數最多的資料填補
-* feature type is numerical
+
+* Numerical
   * 用平均值或中位數填補
+
 * 其他進階技巧
   * 利用插值(interpolation)和外推(extrapolation)預測缺失值
