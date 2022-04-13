@@ -1,7 +1,8 @@
-# Concern
 * Data preprocessing
-* Hyper-parameters selectioln
+* Hyper-parameters selection
 * Model selection
+
+# Data preprocessing
 
 ## 為什麼需要做 Scaling
 * 對KNN來說能夠更加明確對feature來做分類
@@ -30,3 +31,15 @@
 
 * 其他進階技巧
   * 利用插值(interpolation)和外推(extrapolation)預測缺失值
+
+# Hyper-parameters selection
+
+
+# Bias vs Variance
+* `Bias:` 模型並未真實包含x, y 的關係
+* `Variance:` 資料不足或有偏差，模型沒學到完整關係
+* `Noise:` the error from the data per se.
+
+
+
+
