@@ -7,7 +7,7 @@
 * Enterprise applications
 
 ## 容量種類
-* Solid State Drives`SSD`
+* Solid State Drives(SSD)
   * General purpose
     * for most workloads
     * system boot volumes
@@ -18,7 +18,15 @@
     * required IOPS performance
     * large database workloads 
 
-* Hard Disk Drives`HDD`
-  * 
+* Hard Disk Drives(HDD)
+  * streaming workload need fast throughput
+  * big data
+  * data warehouses
+  * cannot boot volume
+
+# Amazon S3(Simple Storage Service)
+* 資料放在水桶
+* 無限制的虛擬容量
+* 
 
 # Amazon EFS(Elastic File System)
