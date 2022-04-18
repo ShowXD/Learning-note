@@ -30,3 +30,11 @@
 * 
 
 # Amazon EFS(Elastic File System)
+`文件的儲存`
+* 適合
+  * 大數據分析
+  * 媒體處理
+  * 資料管理
+  * 網頁服務
+  * home directories
+* 
