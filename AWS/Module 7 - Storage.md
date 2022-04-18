@@ -7,15 +7,18 @@
 * Enterprise applications
 
 ## 容量種類
-* Solid State Drives(SSD)
+* Solid State Drives`SSD`
   * General purpose
     * for most workloads
     * system boot volumes
     * virtual desktop
     * low-lentancy interactive applications
     * development and test environments
+  * Provisioned IOPS
+    * required IOPS performance
+    * large database workloads 
 
-* Hard Disk Drives
+* Hard Disk Drives`HDD`
   * 
 
 # Amazon EFS(Elastic File System)
