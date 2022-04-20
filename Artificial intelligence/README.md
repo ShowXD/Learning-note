@@ -1,4 +1,10 @@
 # 人工智慧
+## 常用的 Optimizer
+* SGD - Stochastic Gradient Descent
+* Adagrad - Adaptive Learning Rate
+* RMSprop - Another Adaptive Learning Rate optimizer
+* Adam - RMSprop + Momentum
+* Nadam - Adam + Nesterove Momentum
 
 ## 問題分類
 * classification
