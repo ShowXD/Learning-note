@@ -10,6 +10,12 @@ conda list
 * 已經安裝套件在conda環境，jupyter notebook 仍沒吃到
 `答: 需先安裝 jupyter notebook`
 
+* Terminal 無法切換至其他磁碟
+`答:`
+```
+cd /D D:\asdf\asdf\asdf
+```
+
 1. 創建 conda 環境
 ```
 conda create -n asdfasdf python=3.7
