@@ -8,17 +8,17 @@
 `Other`
 * Problem occur
 
-## Run setup.py
+# Run setup.py
 ```
 python setup.py install
 ```
 
-## Install other dependencies
+# Install other dependencies
 1. asdf
 2. asdf
 3. asdf
 
-### Problem occur
+# Problem occur
 * cp950
 ```
 Traceback (most recent call last):
