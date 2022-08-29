@@ -8,6 +8,15 @@
 `Other`
 * Problem occur
 
+# Download T5X project from Github
+
+
+# Create Conda env with python 3.9
+* Add name "T5X" env
+```
+conda create -n t5x python=3.9
+```
+
 # Run setup.py
 ```
 python setup.py install
