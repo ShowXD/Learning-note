@@ -10,7 +10,7 @@
 python setup.py install
 ```
 
-### Problem
+### Problem occur
 * cp950
 ```
 Traceback (most recent call last):
