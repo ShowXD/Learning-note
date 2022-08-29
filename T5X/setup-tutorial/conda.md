@@ -1,14 +1,22 @@
 # Conda install T5X
-
+`Pipeline`
 1. Download T5X project from Github
 2. Create Conda env with python 3.9
 3. Run setup.py
-4. 
+4. Install other dependencies
+
+`Other`
+* Problem occur
 
 ## Run setup.py
 ```
 python setup.py install
 ```
+
+## Install other dependencies
+1. asdf
+2. asdf
+3. asdf
 
 ### Problem occur
 * cp950
