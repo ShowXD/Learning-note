@@ -18,7 +18,21 @@ conda install -y -c anaconda psycopq2
 ```
 set PGDATA={path with stored pgdata folder}
 ```
-4. 初始化
+
+4. 初始化(如果已有PGDATA則無需此動作)
+```
+pg_ctl initdb
+```
+
+5. 啟動
+```
+pg_ctl start
+```
+
+6. 關閉
+```
+ctrl+c
+```
 
 ## 基礎知識
 * 縮寫解釋
@@ -46,6 +60,11 @@ pg_ctl initdb
 * 啟動PostgreSQL
 ```
 pg_ctl start
+```
+
+* 關閉PostgreSQL
+```
+ctrl+c
 ```
 
 * 登入資料庫
