@@ -14,3 +14,7 @@
 - Asymmetric ciphers
 - Hybrrid Schemes
 
+## 速算
+### Square-and-Multiply
+![image](https://user-images.githubusercontent.com/29877260/190944770-91324f8a-5ad8-46c5-9c76-6a498542da92.png)
+
