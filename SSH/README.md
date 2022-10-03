@@ -32,3 +32,8 @@ ssh-keygen
 ```
 
 ##　資料傳輸
+### SCP 下載
+
+```
+scp -P 5200 labuser1@140.134.26.65:/home/xyaw/oj/OnlineJudgeDeploy/backup/db_backup_2022_10_03_15_07_10.sql C:\Users\n1641\Desktop
+```
