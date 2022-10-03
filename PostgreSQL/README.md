@@ -41,6 +41,21 @@ ctrl+c
 3. -h `hostname`: 運行 Postgresql 的主機名稱。
 
 ## 資料庫外指令
+* 匯出資料庫
+1. 到資料庫的專案
+```
+cd $project
+```
+
+2. 進入backup資料夾
+```
+cd backup
+```
+
+3. 執行別人寫好的備份sh檔案
+```
+sudo sh db_backup.sh
+```
 * 對資料庫下指令
 ```
 psql -C "command here;" {username}
