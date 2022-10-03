@@ -83,6 +83,7 @@ ctrl+c
 ```
 
 * 登入資料庫
+`預設資料庫是postgres`
 ```
 psql -U {username} -d {database name}
 ```
