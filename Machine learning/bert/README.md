@@ -6,5 +6,5 @@
 conda create -n bert python=3.7
 ```
 
-2. 到 ![bert github]{https://github.com/google-research/bert/blob/master/README.md} 下載預訓練好的模型
+2. 到 ![bert github](https://github.com/google-research/bert/blob/master/README.md) 下載預訓練好的模型
 3. 
