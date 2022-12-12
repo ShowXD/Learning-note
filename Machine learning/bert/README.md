@@ -1,25 +1,12 @@
 # Bert
 
-## 架設 bert api
-1. 創立新的環境
+## 安裝 bert 模型
+1. 創立新的環境 (Python需要>=3.7.0)
 ```
-conda create -n bert python=3.6
-```
-
-2. 到 ![bert github](https://github.com/google-research/bert/blob/master/README.md) 下載預訓練好的模型
-3. 安裝 tensorflow 1.11.0
-```
-conda install tensorflow-gpu==1.11.0
+conda create -n bert python=3.7
 ```
 
-4. 安裝 bert server-service
+2. 安裝Transformers
 ```
-pip install bert-serving-server
+conda install -c conda-forge transformers
 ```
-
-5. 安裝 bert client
-```
-pip install bert-serving-client
-```
-
-6. 
