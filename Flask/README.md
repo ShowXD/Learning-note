@@ -23,9 +23,9 @@ def hello_userid(userid):
 
 ![image](https://user-images.githubusercontent.com/29877260/208165574-68b3a822-4564-417d-ae97-70904aeaa32b.png)
 
-- 獲取資料方法: 例: GET
+- 限定獲取資料的方法: 例: GET及POST
 ```
-@app.route('/hello', method=['GET'])
+@app.route('/hello', method=['GET', 'POST'])
 def hello():
     return 'Hello, World!'
 ```
