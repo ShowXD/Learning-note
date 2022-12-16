@@ -14,7 +14,7 @@ def hello_user(username):
     return "Hello, " + username
 ```
 
-- 指定傳入值的變數型態: 例: int
+- 指定傳入值的變數型態: `例: int`
 ```
 @app.route('/hello/<int:userid>')
 def hello_userid(userid):
