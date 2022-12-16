@@ -25,7 +25,7 @@ def hello_userid(userid):
 
 -----
 
-- 限定獲取資料的方法: 例: GET及POST
+- 限定獲取資料的方法: `例: GET及POST`
 ```
 @app.route('/hello', method=['GET', 'POST'])
 def hello():
