@@ -3,6 +3,8 @@
 ## 環境
 * Python=3.8
 * Flask=2.0.3
+* pymysql=1.0.2
+* flask-sqlalchemy=2.5.1
 * IDE = PyCharm
 
 
