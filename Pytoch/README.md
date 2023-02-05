@@ -2,7 +2,7 @@
 
 ## tensor改變
 * 換位
-`将tensor的维度换位`
+`將tensor的维度换位`
 
 ```
 permute([dims])
