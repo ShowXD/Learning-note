@@ -12,8 +12,8 @@ $T_n = 2T_{n-1} = 2(2^{n-1}) + 1 = 2^n - 1$
 $2^n - 1, n(n+1)/2, n!$
 
 ### The Josephus Problem
-> In our variation, we start with n people numbered 1 to n around a circle, and we elminate every second remaining  person until only survives. 
-> ex: The elimination order is 2, 4, 6, 8, 10, 3, 7, 1, 9. So 5 survives
+> In our variation, we start with n people numbered 1 to n around a circle, and we elminate every second remaining  person until only survives.  
+> ex: The elimination order is 2, 4, 6, 8, 10, 3, 7, 1, 9. So 5 survives  
 `Q: Determine the survivor's number. J(n)`
 
 
