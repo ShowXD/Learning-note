@@ -10,3 +10,6 @@ conda create -n bert python=3.7
 ```
 conda install -c conda-forge transformers
 ```
+```
+pip install transformers==3.2.0
+```
