@@ -9,3 +9,4 @@ $T_n = 2T_n-1 = 2(2^n-1) + 1 = 2^n - 1$
 ### Lines in the Plane
 `Q: What is the max. no. L_n of region defined by n lines in the plane?`  
 `(first solved in 1826, by the Swiss mathmatician Jacob Steiner)`
+$\lbrace$ $\brace$
