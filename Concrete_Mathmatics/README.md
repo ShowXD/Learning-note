@@ -1,5 +1,5 @@
 # 具體數學(Concrete Mathmatics)
 
 ## 章節
-* Recurrent Problems
+* [Recurrent Problems](./recurrent_problems.md)
 * 
