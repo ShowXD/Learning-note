@@ -1,6 +1,6 @@
 # 推薦套件(recommend package)
 ## Terminal
-* Screen
+* Screen  
 `可離線維持ssh連線`  
 ```
 pip install screen
