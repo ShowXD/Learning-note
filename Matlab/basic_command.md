@@ -1,15 +1,19 @@
 # 基本指令
-* asdf
+* Clear the command window
 ```
 clc;
 ```
-* asdf
+* Erase all existing variables.
 ```
-clear all;
+clear;
 ```
-* asdf
+* Close all figures (except those of imtool.)
 ```
 close all;
+```
+* Make sure the workspace panel is showing.
+```
+workspace
 ```
 * asdf
 ```
