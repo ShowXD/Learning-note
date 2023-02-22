@@ -1,21 +1,21 @@
 # 基本指令
-* Clear the command window
+* 清空指令視窗
 ```
 clc;
 ```
-* Erase all existing variables.
+* 清除所有暫存的變數
 ```
 clear;
 ```
-* Close all figures (except those of imtool.)
+* 關閉所有圖表(fig)
 ```
 close all;
 ```
-* Make sure the workspace panel is showing.
+* 確保 workspace 是保持打開的狀態
 ```
 workspace
 ```
-* asdf
+* 隱藏警告
 ```
 warning off;
 ```
