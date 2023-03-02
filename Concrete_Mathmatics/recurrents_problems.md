@@ -21,7 +21,16 @@ $2^n - 1, n(n+1)/2, n!$
 ### More general recurrence
 $$
 f\left(
-  A(1) = 1
-  )
-\right
+   \left[
+     \frac{
+       1+\left\{x,y\right\}
+     }{
+       \left(
+          \frac{x}{y}+\frac{y}{x}
+       \right)
+       \left(u+1\right)
+     }+a
+   \right]^{3/2}
+\right)
+\tag{行標}
 $$
