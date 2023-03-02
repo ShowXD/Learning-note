@@ -12,17 +12,17 @@
 #include <stdio.h>
 ```
 ### algorithm
-- 
+- 標準程式庫演算法
 ```
 #include <algorithm>
 ```
 ### iomanip
-- 
+- 輸入、輸出、操縱器(manipulator)
 ```
 #include <iomanip>
 ```
 ### climits
-- 
+- 常見的數值極限值
 ```
 #include <climits>
 ```
