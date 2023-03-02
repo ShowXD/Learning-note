@@ -7,6 +7,7 @@
 
 # 學術課程
 * [SQA](SQA/README.md)
+* [Advanced Operating System](Advanced Operating System/README.md)
 
 # 程式語言
 * [C++](C++/README.md)
