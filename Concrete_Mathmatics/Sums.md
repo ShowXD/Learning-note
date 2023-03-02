@@ -1,5 +1,6 @@
 # Sums
 
-## Chapter 1. Notation
+## Chapter 2
+### 2.1 Notation
 
-## Chapter 2. Sums and Recurrences
+### 2.2 Sums and Recurrences
