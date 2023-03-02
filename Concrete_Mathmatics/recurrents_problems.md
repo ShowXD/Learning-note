@@ -18,3 +18,5 @@ $2^n - 1, n(n+1)/2, n!$
 
 `Q: Determine the survivor's number. J(n)`
 
+### Key
+`觀察這個問題屬於哪一種遞迴問題，找出規律，確立多項式，解題`
