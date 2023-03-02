@@ -18,4 +18,10 @@ $2^n - 1, n(n+1)/2, n!$
 
 `Q: Determine the survivor's number. J(n)`
 
-
+### More general recurrence
+$$
+f\left{
+  A(1) = 1
+  }
+  \right
+$$
