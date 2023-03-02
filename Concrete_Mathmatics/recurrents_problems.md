@@ -20,8 +20,8 @@ $2^n - 1, n(n+1)/2, n!$
 
 ### More general recurrence
 $$
-f\left{
+f\left(
   A(1) = 1
-  }
+  )
 \right
 $$
