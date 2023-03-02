@@ -23,5 +23,5 @@ $$
 f\left{
   A(1) = 1
   }
-  \right
+\right
 $$
