@@ -2,4 +2,4 @@
 
 ## 章節
 * [Recurrent Problems](./recurrents_problems.md)
-* 
+* [Sums](Sums.md)
