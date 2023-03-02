@@ -18,19 +18,3 @@ $2^n - 1, n(n+1)/2, n!$
 
 `Q: Determine the survivor's number. J(n)`
 
-### More general recurrence
-$$
-f\left(
-   \left[
-     \frac{
-       1+\left\{x,y\right\}
-     }{
-       \left(
-          \frac{x}{y}+\frac{y}{x}
-       \right)
-       \left(u+1\right)
-     }+a
-   \right]^{3/2}
-\right)
-\tag{行標}
-$$
