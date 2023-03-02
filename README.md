@@ -5,8 +5,13 @@
 * [Django](Django/README.md)
 
 # 學術課程
+* [SQA](SQA/README.md)
 
 # 程式語言
+* [C++](C++/README.md)
 
 # 工具教學
-* [SQA](SQA/README.md)
+* [AWS](AWS/README.md)
+
+# 待分類區
+* [Cordova](Cordova/README.md)
