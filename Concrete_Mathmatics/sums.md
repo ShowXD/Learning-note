@@ -25,22 +25,11 @@ $$
 `跳過`
 
 * Method 4: Replace sums by integrals
-<p>
-$$
-f\left(
-   \left[
-     \frac{
-       1+\left\{x,y\right\}
-     }{
-       \left(
-          \frac{x}{y}+\frac{y}{x}
-       \right)
-       \left(u+1\right)
-     }+a
-   \right]^{3/2}
-\right)
-\tag{行標}
-$$
+* Method 5: Expand and contract
+<p>假設
+k=1，k為1=$1^2$
+k=2，k為4=$2^2$
+$\therefore 可拆成兩個Sigma$
 </p>
 ### 2.6 Finite and Infinite Calculus
 ### 2.7 Infinite Sums
