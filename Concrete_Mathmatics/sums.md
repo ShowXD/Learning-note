@@ -17,7 +17,7 @@
 
 * Method 2: 擾亂Sum，找出可利用的部份
 <p>
-$$\sum_{i=1}^n \frac{1}{i^2} \quad and \quad \prod_{i=1}^n \frac{1}{i^2} \quad and \quad \bigcup_{i=1}^{2} R
+$$\sum_{i=1}^n \frac{1}{i^2}
 $$
 </p>
 
