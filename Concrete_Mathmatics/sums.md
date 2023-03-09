@@ -43,5 +43,10 @@ $$
 
 X to the falling 3 = x(x-1)(x-2)
 
+(2)
+<p>利用數學歸納法將抽象的算式與較實體的算式進行掛勾，使其能夠運算</p>
+
+()
+
 ## 2.6 Finite and Infinite Calculus
 ## 2.7 Infinite Sums
