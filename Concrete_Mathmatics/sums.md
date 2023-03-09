@@ -16,7 +16,7 @@
 <p>$口_n$ = $口_(n-1)$ + $n^2$</p>
 
 * Method 2: 擾亂Sum，找出可利用的部份
-<p>$\sum_{0<=k<=n} \frac{(K+1)^2}$</p>
+<p>$\sum_{0<=k<=n} (K+1)^2$</p>
 
 ### 2.6 Finite and Infinite Calculus
 ### 2.7 Infinite Sums
