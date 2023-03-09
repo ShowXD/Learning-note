@@ -22,6 +22,7 @@
 `跳過`
 
 * Method 4: Replace sums by integrals
+<p>
 $$
 f\left(
    \left[
@@ -37,6 +38,6 @@ f\left(
 \right)
 \tag{行標}
 $$
-
+</p>
 ### 2.6 Finite and Infinite Calculus
 ### 2.7 Infinite Sums
