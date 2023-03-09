@@ -39,7 +39,9 @@ $\therefore 可拆成兩個\Sigma$
 $$
 x to the falling m = \overbrace{x(x-1)...(x-m+1)}^{m factors}
 $$
+
 `ex`
+
 $$
 X to the falling 3 = x(x-1)(x-2)
 $$
