@@ -27,9 +27,9 @@ $$
 * Method 4: Replace sums by integrals
 * Method 5: Expand and contract
 <p>假設
-k=1，k為1=$1^2$
-k=2，k為4=$2^2$
-$\therefore 可拆成兩個Sigma$
+k=1，k為1=$1^2$<\br>
+k=2，k為4=$2^2$<\br>
+$\therefore 可拆成兩個\Sigma$
 </p>
 ### 2.6 Finite and Infinite Calculus
 ### 2.7 Infinite Sums
