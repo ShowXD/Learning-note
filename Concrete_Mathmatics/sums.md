@@ -37,12 +37,12 @@ $\therefore 可拆成兩個\Sigma$
 `Df(X) = 在 X 點的微分`
 
 $$
-x to the falling m = \overbrace{x(x-1)...(x-m+1)}^{m factors}
+\text{x to the falling m} = \overbrace{x(x-1)...(x-m+1)}^{m factors}
 $$
 
 `ex`
 
-$ X to the falling 3 = x(x-1)(x-2)$
+X to the falling 3 = x(x-1)(x-2)
 
 ### 2.6 Finite and Infinite Calculus
 ### 2.7 Infinite Sums
