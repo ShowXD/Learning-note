@@ -16,7 +16,10 @@
 <p>$口_n$ = $口_(n-1)$ + $n^2$</p>
 
 * Method 2: 擾亂Sum，找出可利用的部份
-<p>$\sum_{n<=k<=n}^{n} (K+1)^2$</p>
+<p>
+$$\sum_{i=1}^n \frac{1}{i^2} \quad and \quad \prod_{i=1}^n \frac{1}{i^2} \quad and \quad \bigcup_{i=1}^{2} R
+$$
+</p>
 
 * Method 3: Build a repertoire
 `跳過`
