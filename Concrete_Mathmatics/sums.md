@@ -18,5 +18,25 @@
 * Method 2: 擾亂Sum，找出可利用的部份
 <p>$\sum_{n<=k<=n}^{n} (K+1)^2$</p>
 
+* Method 3: Build a repertoire
+`跳過`
+
+* Method 4: Replace sums by integrals
+$$
+f\left(
+   \left[
+     \frac{
+       1+\left\{x,y\right\}
+     }{
+       \left(
+          \frac{x}{y}+\frac{y}{x}
+       \right)
+       \left(u+1\right)
+     }+a
+   \right]^{3/2}
+\right)
+\tag{行標}
+$$
+
 ### 2.6 Finite and Infinite Calculus
 ### 2.7 Infinite Sums
