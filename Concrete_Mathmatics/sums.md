@@ -36,13 +36,12 @@ $\therefore 可拆成兩個\Sigma$
 * Method 6: Finite and Infinite Calculus
 `Df(X) = 在 X 點的微分`
 
-(1)
-$
+$$
 x to the falling m = \overbrace{x(x-1)...(x-m+1)}^{m factors}
-$
+$$
 `ex`
-$
+$$
 X to the falling 3 = x(x-1)(x-2)
-$
+$$
 ### 2.6 Finite and Infinite Calculus
 ### 2.7 Infinite Sums
