@@ -6,6 +6,7 @@
 * [Cordova](Cordova/README.md)
 
 # 學術課程
+* [Concrete_Mathmatics](Concrete_Mathmatics/README.md)
 * [SQA](SQA/README.md)
 * [Advanced Operating System](Advanced Operating System/README.md)
 
