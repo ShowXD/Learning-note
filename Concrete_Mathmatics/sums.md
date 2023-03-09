@@ -42,8 +42,8 @@ $$
 
 `ex`
 
-$$
+$
 X to the falling 3 = x(x-1)(x-2)
-$$
+$
 ### 2.6 Finite and Infinite Calculus
 ### 2.7 Infinite Sums
