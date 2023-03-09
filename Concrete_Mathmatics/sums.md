@@ -17,8 +17,8 @@
 
 * Method 2: 擾亂Sum，找出可利用的部份
 <p>
-$$\sum_{0<=k<=n} (k+1)^2
-$$
+$口_n + (n+1)^2 = \sum_{0<=k<=n} (k+1)^2$
+$$\implies{2}
 </p>
 
 * Method 3: Build a repertoire
