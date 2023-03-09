@@ -10,11 +10,13 @@
 ### 2.4 Multiple Sums
 ### 2.5 General Methods
 `一般要求出sigma時該怎麼做`  
-<p>$口_n = 1^2 + 2^2 + ... + n^2$</p>
-* Method 1: 猜答案，經由推導證明
-$口_n$ = $口_(n-1)$ + $n^2$
+<p>$口_n = 1^2 + 2^2 + ... + n^2$</p>  
 
-* Method 2: 
+* Method 1: 猜答案，經由推導證明
+<p>$口_n$ = $口_(n-1)$ + $n^2$</p>
+
+* Method 2: 擾亂Sum，找出可利用的部份
+<p>$\sum_{0<=k<=n} \frac{(K+1)^2}$</p>
 
 ### 2.6 Finite and Infinite Calculus
 ### 2.7 Infinite Sums
