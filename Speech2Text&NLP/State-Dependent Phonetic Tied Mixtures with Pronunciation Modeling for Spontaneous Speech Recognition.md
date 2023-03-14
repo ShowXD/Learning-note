@@ -2,9 +2,9 @@
 
 ## Distance
 `執行以下動作的次數`
-* delete
-* insert
-* substition
+* delete (-)
+* insert (+)
+* substition (*)
 
 ## Backtrance for computing alignment
 `紀錄最有可能的路徑走法`
