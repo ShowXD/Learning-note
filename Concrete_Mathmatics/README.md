@@ -3,3 +3,4 @@
 ## 章節
 * [Recurrent Problems](./recurrents_problems.md)
 * [Sums](sums.md)
+* [Integer Functions](integer_functions.md)
