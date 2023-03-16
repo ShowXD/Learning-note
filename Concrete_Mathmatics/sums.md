@@ -72,9 +72,9 @@ $H_x$為調和函數
   前提是有數字能夠當bound，bound不住則為發散
 </p>
 
-$\infinte - \infinte = undefined$
-$A\text{bound} - \infinte = -\infinte$
-$\infinte - A\text{bound} = \infinte$
+$$\infinte - \infinte = undefined$$
+$$A\text{bound} - \infinte = -\infinte$$
+$$\infinte - A\text{bound} = \infinte$$
 
 
 
