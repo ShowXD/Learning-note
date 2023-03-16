@@ -7,3 +7,6 @@
   * ex: [3.8] = 4
 * {x} (the fractional part of x) = 取 x 的小數
   * ex: {3.8} = 0.8
+
+## Floor/ceiling applications
+
