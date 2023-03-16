@@ -49,4 +49,15 @@ X to the falling 3 = x(x-1)(x-2)
 ()
 
 ## 2.6 Finite and Infinite Calculus
+`page 29(必考)`
+$\sigma{k=0}k(k-1)(k-2)$
+$=\sigma{1}\text{x to the falling 3}\$
+
+`page 32`
+$\delta{\text{x to the falling m} = m*\text{x to the falling (m-1)}}$
+
+(7)
+`可能會考`
+$H_x$為調和函數
+
 ## 2.7 Infinite Sums
