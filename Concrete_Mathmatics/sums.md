@@ -60,4 +60,17 @@ $\delta{\text{x to the falling m} = m*\text{x to the falling (m-1)}}$
 `可能會考`
 $H_x$為調和函數
 
+(9) 練習積分與抽換的概念
+`大概不會考`
+<p>第二行應該為減</p>
+
 ## 2.7 Infinite Sums
+`倘若是無限數項`
+<p>
+  先以有限的n項來代表，之後帶n為無限進去。
+  前提是有數字能夠當bound，bound不住則為發散
+</p>
+
+
+
+
