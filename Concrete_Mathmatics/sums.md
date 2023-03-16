@@ -73,7 +73,9 @@ $H_x$為調和函數
 </p>
 
 $$\infinte - \infinte = undefined$$
+
 $$A\text{bound} - \infinte = -\infinte$$
+
 $$\infinte - A\text{bound} = \infinte$$
 
 
