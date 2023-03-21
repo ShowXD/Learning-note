@@ -12,3 +12,5 @@
 
 #### Markov Assumption
 P(the|its waters is so transparent that) ~~ P(the|that)
+
+### Kneser–Ney smoothing
