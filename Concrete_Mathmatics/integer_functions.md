@@ -11,5 +11,6 @@
 ## Floor/ceiling applications
 
 ## Floor/ceiling recurrences
-
-
+* Josephus problem
+`作者讓你看一下，不會考`
+<p>1到n重新編號</p>
