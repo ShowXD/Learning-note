@@ -11,6 +11,12 @@
 ## Floor/ceiling applications
 
 ## Floor/ceiling recurrences
-* Josephus problem
+### Josephus problem
 `作者讓你看一下，不會考`
-<p>1到n重新編號</p>
+<p>1到n重新編號，得出N之後即可依序帶入數字，直到小於10即可獲得原始號碼。</p>
+
+## "Mod": The binary operation
+## Floor/ceiling sums
+### (1)
+`假設答案為m`
+<p>因$(m+1)^2$及$n$都大於$k$，因此需要$k<(m+1)^2<=n$和$k<n<(m+1)^2$相加</p>
