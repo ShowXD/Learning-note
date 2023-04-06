@@ -4,3 +4,4 @@
 * [Recurrent Problems](./recurrents_problems.md)
 * [Sums](sums.md)
 * [Integer Functions](integer_functions.md)
+* [Number Thoeory](number_theory.md)
