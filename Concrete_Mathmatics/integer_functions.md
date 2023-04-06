@@ -9,6 +9,8 @@
   * ex: {3.8} = 0.8
 
 ## Floor/ceiling applications
+(1) 舉例不能使用的地方
+
 
 ## Floor/ceiling recurrences
 ### Josephus problem
