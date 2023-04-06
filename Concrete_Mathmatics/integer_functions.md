@@ -1,7 +1,7 @@
 # Integer Functions
 
 ## Floors and ceilings
-* $\lfloorx\rfloor$ (floor) = 小於等於 x 的最大整數
+* $\lfloor x \rfloor$ (floor) = 小於等於 x 的最大整數
   * ex: [3.8] = 3
 * [x] (ceiling) = 大於等於 x 的最小整數
   * ex: [3.8] = 4
