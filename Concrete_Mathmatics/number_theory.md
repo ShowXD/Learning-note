@@ -1,4 +1,4 @@
 # Number Theory
-## Divisibility
+## Divisibility(可分性)
 ``
-<p></p>
+* $\because m除得盡n \therefore m為n的倍數$
