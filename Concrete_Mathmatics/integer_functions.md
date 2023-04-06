@@ -26,4 +26,4 @@
 <p>因最後的數列為整數，前面的 x+kn mod m 有floor， 所以 kn-kn mod m 為整數。</p>
 <p>套用 m=12, n=5 帶入計算、套用 m=12, n=8 帶入計算可找出規律，最後用 d 代表可得出
 $$\frac{x}{a} =  A, \frac{m}{a} = B$$
-$$\floor{A} = \ceiling{\frac{A}{B}} + \floor{\frac{A+1}{B}}$$
+$$\floor[A] = \ceiling[\frac{A}{B}] + \floor[\frac{A+1}{B}]$$
