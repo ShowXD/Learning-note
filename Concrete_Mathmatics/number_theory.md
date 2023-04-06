@@ -15,4 +15,6 @@
 
 ## Factorial factors
 * n階層在數學表達為
-* $ \in_ 2 (10!) = 8 \Rightarrow \text{2的幾次方除得盡的意思}$
+* $\in _2 (10!) = 8 \Rightarrow \text{2的幾次方除得盡的意思}$
+  * $\in_3(20!) = \lfloor \frac{20}{3} \rfloor + \lfloor \frac{20}{9} \rfloor$
+  $\implies 6 + 2$
