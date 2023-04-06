@@ -1,6 +1,6 @@
 # Number Theory
 ## Divisibility(可分性)
 ``
-* $\because m除得盡n，\therefore m為n的倍數$
+* $\because m \text{除得盡}n，\therefore m \text{為} n \text{的倍數}$
 ### 證明 gcd(m, n) = gcd(n mod m, m)
-$$d \mid m  d \mid n, \begin{cases}$$
+$$d \mid m  d \mid n$$
