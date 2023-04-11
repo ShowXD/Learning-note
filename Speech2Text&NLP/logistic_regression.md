@@ -12,6 +12,7 @@
 4. []
 
 ## Sigmoid
-## Binary classification
-## A text sentiment classification 
+### Binary classification
+### A text sentiment classification 
 
+## Softmax
