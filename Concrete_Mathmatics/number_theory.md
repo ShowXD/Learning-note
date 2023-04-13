@@ -21,12 +21,23 @@
 
 ## Relative primality(最簡分數)
 * 找出了一項能獲得所有最簡分數的規律。方法: 兩個分數的分母和分子相加
-* 證明為什麼成立
+### 證明為什麼成立
   * fact2: 不等式可拆為兩項不等式來比較
   * fact3: $\bot$ 是互質的意思， $m^\prime + n^\prime + m+n\leq a+b$
-* 快速解法:
+### 快速解法:
 $$\frac{m}{n} = \frac{5}{2}$$
 $$\implies m = 5, n = 7 \Rightarrow m < n ，所以L$$
 $$\implies m = 5, n = 2 \Rightarrow m > n ，所以R$$
 $$\implies m = 3, n = 2 \Rightarrow m > n ，所以R$$
 $$\implies m = 1, n = 2 \Rightarrow m < n ，所以L$$
+
+## Independent residues(單獨餘數)
+`通常除數很大時我們無法快速得知餘數的值`
+
+### 將除數分開去除
+* 條件:
+  * 分出來的數為$\bot$
+`ex:`
+<p>15分為3和5<\p>
+
+###
