@@ -20,6 +20,7 @@
   $\implies 6 + 2$
 
 ## Relative primality(最簡分數)
-* 找出能獲得所有最簡分數的規律，方法: 兩個分數的分母和分子相加
+* 找出了一項能獲得所有最簡分數的規律。方法: 兩個分數的分母和分子相加
 * 證明為什麼成立
-  * fact3: $\bot$ 號是互質的意思
+  * fact1: 不等式可拆為 $\begin{cases} \frac{m}{n} < \frac{m+m^'}{n+n^'} \\ \frac{m+m^'}{n+n^'} < \frac{m^'}{n^'} \end{cases}$
+  * fact3: $\bot$ 是互質的意思
