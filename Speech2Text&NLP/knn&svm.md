@@ -32,6 +32,8 @@
 ### Model
 $F = {f:f(x;w,b) = w^T x + b}$
 
+### separating hyperplane
+
 ## Slacks
 ## Nonlinear SVC
 ## Dual Problem
