@@ -15,7 +15,7 @@ regions?
 
 $R_n = R_(n-1)+(n-2)$  
 $\Rightarrow R_(n-2) + (n-3) + (n-2)$  
-$\Rightarrow 1 + 2 + ... + (n-3) + (m-2)$  
+$\Rightarrow 1 + 2 + \cdot + (n-3) + (m-2)$  
 $\Rightarrow \frac{(n-2)(1+(n-2))}{2}$  
 $\Rightarrow \frac{(n-2)(n-1)}{2}$  
 
@@ -69,7 +69,7 @@ $\Rightarrow 2^(n+2) - 5$
 
 ## 題目
 <p>
-How many pieces of cheese can you obtain from a single thick piece by making ve straight slices? (The cheese must stay in its original position while you do all the cutting, and each slice must correspond to a plane in 3D.) Find a recurrence relation for Pn, the maximum number of threedimensional regions that can be dened by n dierent planes.
+How many pieces of cheese can you obtain from a single thick piece by making ve straight slices? (The cheese must stay in its original position while you do all the cutting, and each slice must correspond to a plane in 3D.) Find a recurrence relation for Pn, the maximum number of threedimensional regions that can be dened by n different planes.
 </p>
 
 ## 解法
@@ -90,7 +90,7 @@ n|0|1|2|3|4|5
 $P_n = P_(n-1) + L_(n-1)$  
 $\Rightarrow P_(n-2) + L_(n-2) + (1 + \frac{{n-1}n}{2})$  
 $\Rightarrow P_(n-3) + L_(n-3) + (1 + \frac{{n-2}{n-1}}{2}) + (1 + \frac{(n-1)n}{2})$  
-$\Rightarrow P_0 + L_0 + (1 + \frac{1*2}{2}) + (1 + \frac{2*3}{2}) + ... + (1 + \frac{(n-1)n}{2})$  
+$\Rightarrow P_0 + L_0 + (1 + \frac{1*2}{2}) + (1 + \frac{2*3}{2}) + \cdots + (1 + \frac{(n-1)n}{2})$  
 $\Rightarrow 1 + 1 + (n-1) + \frac{\frac{(n-1)n(n-2)}{3}}{2}$  
 $\Rightarrow 1 + n + \frac{n^3 - n}{6} = \frac{n^3 + 5n + 6}{6}$
 
