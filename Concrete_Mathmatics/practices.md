@@ -12,11 +12,12 @@ regions?
 2. 不斷的畫出來
 3. 找出規律
 4. 規律像 $S_(n-2) = (n-1)(n-2)/2 = L_n - 2n$
-$R_n = R_(n-1)+(n-2)$
-$\Rightarrow R_(n-2) + (n-3) + (n-2)$
-$\Rightarrow 1 + 2 + ... + (n-3) + (m-2)$
-$\Rightarrow \frac{(n-2)(1+(n-2))}{2}$
-$\Rightarrow \frac{(n-2)(n-1)}{2}$
+
+$R_n = R_(n-1)+(n-2)$  
+$\Rightarrow R_(n-2) + (n-3) + (n-2)$  
+$\Rightarrow 1 + 2 + ... + (n-3) + (m-2)$  
+$\Rightarrow \frac{(n-2)(1+(n-2))}{2}$  
+$\Rightarrow \frac{(n-2)(n-1)}{2}$  
 
 n|1|2|3|4|5|6|7|8|9|10
 ---|---|---|---|---|---|---|---|---|---|---
