@@ -32,5 +32,6 @@ Bounded $R_n$|0|0|0|1|3|6|10
 ## 題目
 <p>
 Solve the recurrence
-$$
+$Q_0 = \alpha; Q_1 = \beta;$  
+$Q_n = (1 + Q_(n-1))/Q_(n-2)$
 </p>
