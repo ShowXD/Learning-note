@@ -35,3 +35,7 @@ Solve the recurrence
 $Q_0 = \alpha; Q_1 = \beta;$  
 $Q_n = (1 + Q_(n-1))/Q_(n-2)$
 </p>
+
+## 解法
+1. $Q_0 = \$
+
