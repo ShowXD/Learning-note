@@ -1,4 +1,13 @@
 # Chapter 1-6
+
+## 題目
+<p>
+  Some of the regions defined by n lines in the plane are in infinte, while
+others are bounded. What's the maximum possible number of bounded
+regions?
+</p>
+
+## 解法
 1. 先從 $l_0$ 開始看
 2. 不斷的畫出來
 3. 找出規律
