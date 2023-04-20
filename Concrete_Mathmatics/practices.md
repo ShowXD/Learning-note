@@ -134,3 +134,22 @@ Show that the following formulas can be used to convert between rising
 and falling factorial powers, for all integers m:
 $$$$
 
+# Chapter 2-19
+
+## 題目
+<p>Use a summation factor to solve the recurrence
+$$T_0 = 5;$$
+$$2T_n = nT_(n-1) + 3 \dot n!, \text{for n > 0.}$$
+
+## 解法
+$a_nT_n = BnT_(n-1) + C_n$  
+$\Rightarrow S_n A_n T_n = S_n b_n T_(n-1) + S_n C_n$  
+$\Rightarrow S_n = S_(n-1) + S_n C_n$  
+<p>帶入<\p>
+$\Rightarrow S_n = S_0 + \sigma{i=1}{n} S_i C_i$  
+$\Rightarrow S_0  a_0 $
+
+$a_n = 2, b_n = n, C_n = 3\dot n!, T_0 = 5$
+
+
+
