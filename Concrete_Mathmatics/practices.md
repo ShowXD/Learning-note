@@ -91,7 +91,7 @@ $P_n = P_(n-1) + L_(n-1)$
 $\Rightarrow P_(n-2) + L_(n-2) + (1 + \frac{{n-1}n}{2})$  
 $\Rightarrow P_(n-3) + L_(n-3) + (1 + \frac{{n-2}{n-1}}{2}) + (1 + \frac{(n-1)n}{2})$  
 $\Rightarrow P_0 + L_0 + (1 + \frac{1*2}{2}) + (1 + \frac{2*3}{2}) + ... + (1 + \frac{(n-1)n}{2})$  
-$\Rightarrow 1 + 1 + (n-1) + \frac{\frac{(n-1)n(n-2)}{3}}{2}$
+$\Rightarrow 1 + 1 + (n-1) + \frac{\frac{(n-1)n(n-2)}{3}}{2}$  
 $\Rightarrow 1 + n + \frac{n^3 - n}{6} = \frac{n^3 + 5n + 6}{6}$
 
 
