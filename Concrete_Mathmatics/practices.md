@@ -60,12 +60,23 @@ order of all the equal-size disks in the final arrangement?
 
 ## 解法
 $A_n = 2T_n=2(2^n-1)$
-
+$\Rightarrow B_n = 4A_(n-1) + 3$
+$\Rightarrow 2^(n+2) - 5$
 
 ---
 
+# Chapter 1-14
 
+## 題目
 
+## 解法
+
+n|0|1|2|3|4|5
+---|---|---|---|---|---|---
+0|1|1|1|1|1
+1|1|2|3|4|5|6
+2|1|2|4|7|11|16
+3|1
 
 
 
