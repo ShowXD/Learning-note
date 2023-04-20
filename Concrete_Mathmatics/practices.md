@@ -144,7 +144,7 @@ $$2T_n = nT_(n-1) + 3 \dot n!, \text{for n > 0.}$$
 ## 解法
 
 ### 方法1
-$2 \dot \frac{2^(n-1)}{n!}T_n = \frac{2^(n-1)}{n!} \dot nT_(n-1) + 3\dot n! \frac{2^(n-1)}{n!}$
+$2 \dot \frac{2^(n-1)}{n!} T_n = \frac{2^(n-1)}{n!} \dot nT_(n-1) + 3\dot n! \frac{2^(n-1)}{n!}$
 
 ### 方法2
 $a_nT_n = BnT_(n-1) + C_n$  
@@ -156,5 +156,14 @@ $\Rightarrow S_0  a_0 $
 
 $a_n = 2, b_n = n, C_n = 3\dot n!, T_0 = 5$
 
+---
 
+# Chapter 2-20
 
+## 題目
+$Try to evaluate \Sigma{n}{k=0} kH_k by th perturbation method, but deduce the value of \Sigma{n}{k=0} instead.$
+
+## 解法
+$S_n = \Sigma{n}{k=0}kH_k$  
+多加一項$S_n + (n+1)H_(n+1)$
+$$
