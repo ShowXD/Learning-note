@@ -15,7 +15,7 @@ regions?
 
 $R_n = R_(n-1)+(n-2)$  
 $\Rightarrow R_(n-2) + (n-3) + (n-2)$  
-$\Rightarrow 1 + 2 + \cdot + (n-3) + (m-2)$  
+$\Rightarrow 1 + 2 + \cdots + (n-3) + (m-2)$  
 $\Rightarrow \frac{(n-2)(1+(n-2))}{2}$  
 $\Rightarrow \frac{(n-2)(n-1)}{2}$  
 
@@ -94,8 +94,43 @@ $\Rightarrow P_0 + L_0 + (1 + \frac{1*2}{2}) + (1 + \frac{2*3}{2}) + \cdots + (1
 $\Rightarrow 1 + 1 + (n-1) + \frac{\frac{(n-1)n(n-2)}{3}}{2}$  
 $\Rightarrow 1 + n + \frac{n^3 - n}{6} = \frac{n^3 + 5n + 6}{6}$
 
+---
 
+# Chapter 2-16
 
+## 題目
+<p>
+Prove that xm/(x − n)m = x
+n/(x − m)
+n, unless one of the denominators
+is zero.
+</p>
 
+## 解法
+`參照2.52的式子即可求出`
 
+### 方法1
+$x^\underline{m+n} = x^\underline{m}(x - m)^\underline{n}$  
+$\Rightarrow x^\underline{n}(x - n)^\underline{m}$  
+
+### 方法2
+When n > 0
+
+### Case 1: n > 0
+
+### Case 2: n > 0 and m < 0
+
+### Case 3: n < 0 and m < 0
+`assume n <= m < 0`
+
+### Case 4: n < 0 and m > 0
+
+---
+
+# Chapter 2-17
+
+## 題目
+Show that the following formulas can be used to convert between rising
+and falling factorial powers, for all integers m:
+$$$$
 
