@@ -142,6 +142,11 @@ $$T_0 = 5;$$
 $$2T_n = nT_(n-1) + 3 \dot n!, \text{for n > 0.}$$
 
 ## 解法
+
+### 方法1
+$2 \dot \frac{2^(n-1)}{n!}T_n = \frac{2^(n-1)}{n!} \dot nT_(n-1) + 3\dot n! \frac{2^(n-1)}{n!}$
+
+### 方法2
 $a_nT_n = BnT_(n-1) + C_n$  
 $\Rightarrow S_n A_n T_n = S_n b_n T_(n-1) + S_n C_n$  
 $\Rightarrow S_n = S_(n-1) + S_n C_n$  
