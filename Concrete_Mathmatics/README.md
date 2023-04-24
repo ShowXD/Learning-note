@@ -5,3 +5,6 @@
 * [Sums](sums.md)
 * [Integer Functions](integer_functions.md)
 * [Number Thoeory](number_theory.md)
+
+## 練習
+* [Practices](./practices.md)
