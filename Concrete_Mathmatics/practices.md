@@ -110,7 +110,7 @@ $\Rightarrow 1 + n + \frac{n^3 - n}{6} = \frac{n^3 + 5n + 6}{6}$
 
 ## 題目
 <p>
-Prove that $x^\underline{m+n}/x^\underline{m}(x - n)^\underline{m} = x^\underline{n}/(x-m)^\underline{n}$, unless one of the denominators is zero.
+Prove that $x^\underline{m}/(x - n)^\underline{m} = x^\underline{n}/(x-m)^\underline{n}$, unless one of the denominators is zero.
 </p>
 
 ## 解法
