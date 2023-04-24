@@ -110,10 +110,7 @@ $\Rightarrow 1 + n + \frac{n^3 - n}{6} = \frac{n^3 + 5n + 6}{6}$
 
 ## 題目
 <p>
-Prove that xm/(x − n)m = x
-n/(x − m)
-n, unless one of the denominators
-is zero.
+Prove that $x^\underline{m+n}/x^\underline{m}(x - n)^\underline{m} = x^\underline{n}/(x-m)^\underline{n}$, unless one of the denominators is zero.
 </p>
 
 ## 解法
@@ -171,7 +168,7 @@ $a_n = 2, b_n = n, C_n = 3\dot n!, T_0 = 5$
 # Chapter 2-20
 
 ## 題目
-$Try to evaluate \Sigma{n}{k=0} kH_k by th perturbation method, but deduce the value of \Sigma{n}{k=0} instead.$
+$\text{Try to evaluate} \Sigma{n}{k=0} kH_k \text{by th perturbation method, but deduce the value of} \Sigma{n}{k=0} \text{instead.}$
 
 ## 解法
 $S_n = \Sigma{n}{k=0}kH_k$  
