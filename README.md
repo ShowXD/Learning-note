@@ -3,6 +3,7 @@
 
 # 開發框架
 * [Django](Django/README.md)
+* [Flask](Flask/README.md)
 * [Cordova](Cordova/README.md)
 
 # 學術課程
@@ -17,6 +18,7 @@
 * [AWS](AWS/README.md)
 * [Conda](Conda/README.md)
 * [Docker](Docker/README.md)
+* [Github](Github/README.md)
 
 # 待分類區
 
