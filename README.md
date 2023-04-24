@@ -23,7 +23,8 @@
 * [Conda](Conda/README.md)
 * [Docker](Docker/README.md)
 * [Github](Github/README.md)
-* [Mysql](Mysql/README.md)
+* [MySQL](Mysql/README.md)
+* [PostgreSQL](PostgreSQL/README.md)
 
 # 待分類區
 * [Leetcode](Leetcode/README)
