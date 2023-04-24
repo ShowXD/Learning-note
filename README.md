@@ -13,6 +13,7 @@
 * [Advanced Operating System](Advanced Operating System/README.md)
 * [Hardware Security](Hardware Security/README.md)
 * [Internet Protocol](Internet Protocol/README.md)
+* [Speech2Text&NLP](Speech2Text&NLP/README.md)
 ---
 * [Reinforcement-learning](Reinforcement-learning/README.md)
 
