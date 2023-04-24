@@ -11,9 +11,11 @@
 * [SQA](SQA/README.md)
 * [Advanced Operating System](Advanced Operating System/README.md)
 * [Hardware Security](Hardware Security/README.md)
+* [Internet Protocol](Internet Protocol/README.md)
 
 # 程式語言
 * [C++](C++/README.md)
+* [Java](Java/README.md)
 
 # 工具教學
 * [AWS](AWS/README.md)
