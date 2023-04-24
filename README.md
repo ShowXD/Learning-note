@@ -10,6 +10,7 @@
 * [Concrete_Mathmatics](Concrete_Mathmatics/README.md)
 * [SQA](SQA/README.md)
 * [Advanced Operating System](Advanced Operating System/README.md)
+* [Hardware Security](Hardware Security/README.md)
 
 # 程式語言
 * [C++](C++/README.md)
