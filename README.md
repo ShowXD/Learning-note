@@ -5,6 +5,7 @@
 * [Django](Django/README.md)
 * [Flask](Flask/README.md)
 * [Cordova](Cordova/README.md)
+* [Pytorch](Pytorch/README.md)
 
 # 學術課程
 * [Concrete_Mathmatics](Concrete_Mathmatics/README.md)
@@ -12,6 +13,8 @@
 * [Advanced Operating System](Advanced Operating System/README.md)
 * [Hardware Security](Hardware Security/README.md)
 * [Internet Protocol](Internet Protocol/README.md)
+---
+* [Reinforcement-learning](Reinforcement-learning/README.md)
 
 # 程式語言
 * [C++](C++/README.md)
