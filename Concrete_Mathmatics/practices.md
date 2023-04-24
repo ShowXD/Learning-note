@@ -59,9 +59,19 @@ order of all the equal-size disks in the final arrangement?
 </p>
 
 ## 解法
+
+### a
+1. 現在有三層，把前兩層搬到C
+2. 把最下層搬到B
+3. 再把兩層的搬到A
+4. 把B搬到C
+5. 
+
 $A_n = 2T_n=2(2^n-1)$  
 $\Rightarrow B_n = 4A_(n-1) + 3$  
 $\Rightarrow 2^(n+2) - 5$  
+
+### b
 
 ---
 
