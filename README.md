@@ -16,12 +16,14 @@
 # 程式語言
 * [C++](C++/README.md)
 * [Java](Java/README.md)
+* [Matlab](Matlab/README.md)
 
 # 工具教學
 * [AWS](AWS/README.md)
 * [Conda](Conda/README.md)
 * [Docker](Docker/README.md)
 * [Github](Github/README.md)
+* [Mysql](Mysql/README.md)
 
 # 待分類區
 * [Leetcode](Leetcode/README)
