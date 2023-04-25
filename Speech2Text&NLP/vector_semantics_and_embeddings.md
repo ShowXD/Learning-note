@@ -53,7 +53,7 @@ subordinate|car|mango|chair
 ### Tf-idf
 * tf: term frequency
 * idf: inverse doument frequency  
-$$idf_t = log_10(\frac{N}{df_t})$$
+$$idf_t = log_{10}(\frac{N}{df_t})$$
 
 * Sparse vectors
 
