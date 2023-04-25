@@ -49,6 +49,17 @@ subordinate|car|mango|chair
 * dominance()
   - controlling, awed
 
+## embeddings
+### Tf-idf
+* Sparse vectors
+
+### Word2vec
+* Dense vectors
+
+### dot product(內積)
+
+$$\abs{v} = \sqrt{\sum_{i=1}^N v_{i}^2}$$
+
 # 其他
 ## dataset
 * SimLex-999 dataset
