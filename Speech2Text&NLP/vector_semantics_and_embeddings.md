@@ -78,6 +78,9 @@ count(context)|4997|5673|---|11716
 
 $\therefore p_{w=information, c=data} = \frac{3982}{11716} = 0.3399$
 
+$pmi_{ij} = log_{2}\frac{p_{ij}}{p_{i*}p_{*j}}$
+$\therefore pmi(information, data) = log_{2}(0.3399/(0.6575*0.4842)) = 0.0944$
+
 # 其他
 ## dataset
 * SimLex-999 dataset
