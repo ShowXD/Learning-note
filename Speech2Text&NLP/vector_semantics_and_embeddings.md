@@ -69,7 +69,7 @@ $$idf_t = log_{10}(\frac{N}{df_t})$$
 $$\vert v \vert = \sqrt{\sum_{i=1}^N v_{i}^2}$$
 
 ### PPMI
-$$p_{ij} = \frac{f_{ij}}{\sum_{i=1}^{w} \sum_{j=1}^{C}f_{ij}}$$
+$$p_{ij} = \frac{f_{ij}}{\sum_{i=1}^{w} \sum_{j=1}^{C}f_{ij}}, p_{i*} = \frac{\sum_{j=1}^{C}f_{ij}}{\sum_{i=1}^{W}\sum_{j=1}^{C}f_{ij}}$$
 
 ---|computer|data|---|count
 ---|---|---|---|---
