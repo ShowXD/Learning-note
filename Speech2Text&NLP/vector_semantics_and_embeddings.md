@@ -30,6 +30,7 @@
 `以更為明確的定義來命名`
 
 superordinate|vechicle|fruit|furniture
+---|---|---|---
 subordinate|car|mango|chair
 
 
