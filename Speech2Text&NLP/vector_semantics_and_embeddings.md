@@ -13,11 +13,11 @@
 `在某些場景下，意義上有所關聯`
 
 * hospitals
-  * surgeon, scalpel, nurse, anesthetic, hospital
+  - surgeon, scalpel, nurse, anesthetic, hospital
 * restaurants
-  * waiter, menu, plate, food, menu, ched
+  - waiter, menu, plate, food, menu, ched
 * houses
-  * door, roof, kitchen, family, bed
+  - door, roof, kitchen, family, bed
 
 #### antonymy
 `反義詞`
@@ -28,11 +28,26 @@
 
 #### superordinate/
 `以更為明確的定義來命名`
+1. superordinate
+  - funiture
+2. basic
+  - chair
+3. subordinate
+  - office chair
 
 superordinate|vechicle|fruit|furniture
 ---|---|---|---
 subordinate|car|mango|chair
 
+#### connotation(sentiment)
+`內涵, Osgood et al. (1957)`
+
+* valence(情感)
+  - unhappy, happy  
+* arousal(情緒)
+  - excited, calm
+* dominance()
+  - controlling, awed
 
 # 其他
 ## dataset
