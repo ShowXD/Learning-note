@@ -56,8 +56,8 @@ $$tf_{t,d} = \begin{cases} 1 + log_{10}count{t,d}, &\text{if count(t,d) > 0} \\ 
 
 * idf: inverse doument frequency  
 $$idf_t = log_{10}(\frac{N}{df_t})$$
-$N = \text{Total # of docs in collection}$
-$# of docs that have word i$
+$N = \text{Total \# of docs in collection}$
+$\text{# of docs that have word} i$
 
 * Sparse vectors
 
