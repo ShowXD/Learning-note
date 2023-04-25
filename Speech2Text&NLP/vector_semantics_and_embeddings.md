@@ -91,3 +91,7 @@ $\therefore pmi(information, data) = log_{2}(0.3399/(0.6575*0.4842)) = 0.0944$
 ## dataset
 * SimLex-999 dataset
   * 拿來做模型的validation
+
+## embeddings
+- [Word2vec](https://code.google.com/archive/p/word2vec/)
+- [Glove](http://nlp.stanford.edu/projects/glove/)
