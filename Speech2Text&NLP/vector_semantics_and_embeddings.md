@@ -11,6 +11,7 @@
 
 #### word relatednes
 `在某些場景下，意義上有所關聯`
+
 * hospitals
   * surgeon, scalpel, nurse, anesthetic, hospital
 * restaurants
@@ -20,12 +21,14 @@
 
 #### antonymy
 `反義詞`
+
 * dark/light
 * short/long
 * fast/slow
 
 #### superordinate/
 `以更為明確的定義來命名`
+
 superordinate|vechicle|fruit|furniture
 subordinate|car|mango|chair
 
