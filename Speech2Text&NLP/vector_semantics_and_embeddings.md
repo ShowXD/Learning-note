@@ -51,6 +51,9 @@ subordinate|car|mango|chair
 
 ## embeddings
 ### Tf-idf
+* tf: term frequency
+* idf: inverse doument frequency  
+$$idf_t = log_10(\frac{N}{df_t})$$
 * Sparse vectors
 
 ### Word2vec
