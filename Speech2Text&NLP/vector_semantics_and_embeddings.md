@@ -58,7 +58,7 @@ subordinate|car|mango|chair
 
 ### dot product(內積)
 
-$$\abs{v} = \sqrt{\sum_{i=1}^N v_{i}^2}$$
+$$\vert v \vert = \sqrt{\sum_{i=1}^N v_{i}^2}$$
 
 # 其他
 ## dataset
