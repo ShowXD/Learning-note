@@ -52,7 +52,8 @@ subordinate|car|mango|chair
 ## embeddings
 ### Tf-idf
 * tf: term frequency  
-$$tf_{t,d} = \begin{cases} 1 + log_{10}count(t,d) \\ 0 \end{cases}$$
+$$ f(n)= \begin{cases} n/2, & \text {if $n$ is even} \\ 3n+1, & \text{if $n$ is odd} \end{cases} $$
+
 * idf: inverse doument frequency  
 $$idf_t = log_{10}(\frac{N}{df_t})$$
 
