@@ -69,7 +69,7 @@ $$idf_t = log_{10}(\frac{N}{df_t})$$
 $$\vert v \vert = \sqrt{\sum_{i=1}^N v_{i}^2}$$
 
 ### PPMI
-$p_{ij} = \frac{f_{ij}}{\sum_{i=1}^{w} \sum_{j=1}^{C}f_{ij}}$
+$$p_{ij} = \frac{f_{ij}}{\sum_{i=1}^{w} \sum_{j=1}^{C}f_{ij}}$$
 
 ---|computer|data|---|count
 ---|---|---|---|---
@@ -83,7 +83,7 @@ $\therefore p_{w=information, c=data} = \frac{3982}{11716} = 0.3399$
 information|0.2838|0.3399|0.6575
 p(context)|0.4265|0.4842|---
 
-$pmi_{ij} = log_{2}\frac{p_{ij}}{p_{i*}p_{*j}}$
+$$pmi_{ij} = log_{2}\frac{p_{ij}}{p_{i*}p_{*j}}$$
 
 $\therefore pmi(information, data) = log_{2}(0.3399/(0.6575*0.4842)) = 0.0944$
 
