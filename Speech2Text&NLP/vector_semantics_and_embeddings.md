@@ -68,6 +68,16 @@ $$idf_t = log_{10}(\frac{N}{df_t})$$
 
 $$\vert v \vert = \sqrt{\sum_{i=1}^N v_{i}^2}$$
 
+### PPMI
+$p_{ij} = \frac{f_{ij}}{\sum_{i=1}^{w} \sum_{j=1}^{C}f_{ij}}$
+
+---|computer|data|---|count
+---|---|---|---|---
+information|3325|3982|---|7703
+count(context)|4997|5673|---|11716
+
+$\therefore p_{w=information, c=data} = \frac{3982}{11716} = 0.3399$
+
 # 其他
 ## dataset
 * SimLex-999 dataset
