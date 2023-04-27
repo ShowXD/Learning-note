@@ -316,18 +316,18 @@ $\sum_{k}kx\[a <= kx <]$
 Prove or disprove $\lfloor x \rfloor + \lfloor y \rfloor + \lfloor x + y \rfloor <= \lfloor 2x \rfloor + \lfloor 2y \rfloor$
 
 ## 解法(窮舉法)
-令$$x = a + i, y = b + j$$
-$$\therefore \lfloor x \rfloor = a, \lfloor y \rfloor = b, \lfloor x + y \rfloor = a + b + \lfloor i + j \rfloor$$
+令 $x = a + i, y = b + j$
+$\therefore \lfloor x \rfloor = a, \lfloor y \rfloor = b, \lfloor x + y \rfloor = a + b + \lfloor i + j \rfloor$
 
-$$\therefore \lfloor x \rfloor + \lfloor y \rfloor + \lfloor x + y \rfloor$$
-$$\Rightarrow a + b + a + b + \lfloor i + j \rfloor$$
-$$\Rightarrow 2a + 2b + \lfloor i + j \rfloor$$
+$\therefore \lfloor x \rfloor + \lfloor y \rfloor + \lfloor x + y \rfloor$
+$\Rightarrow a + b + a + b + \lfloor i + j \rfloor$
+$\Rightarrow 2a + 2b + \lfloor i + j \rfloor$  
 
-$$\therefore \lfloor 2x \rfloor + \lfloor 2y \rfloor$$
-$$\Rightarrow 2a + \lfloor 2i \rfloor + 2b + \lfloor 2j \rfloor$$
-$$\Rightarrow 2a + 2b + \lfloor 2i \rfloor + \lfloor 2j \rfloor$$
+$\therefore \lfloor 2x \rfloor + \lfloor 2y \rfloor$
+$\Rightarrow 2a + \lfloor 2i \rfloor + 2b + \lfloor 2j \rfloor$
+$\Rightarrow 2a + 2b + \lfloor 2i \rfloor + \lfloor 2j \rfloor$  
 
-$$\therefore \lfloor i + j \rfloor <= \lfloor 2i \rfloor + \lfloor 2i \rfloor$$
+$\therefore \lfloor i + j \rfloor <= \lfloor 2i \rfloor + \lfloor 2i \rfloor$  
 <p>可分成</p>
 - $$
 
