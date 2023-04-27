@@ -323,8 +323,8 @@ $\therefore \lfloor x \rfloor = a, \lfloor y \rfloor = b, \$
 
 ## 題目
 $\text{Let} f(n) = \sum_{k=1}^{n} \lceil lg k \rceil$  
-\bf{a} Find a closed form for f(n), when n >= 1.  
-\bf{b} Prove that $f(n) = n - 1 + f( \lfloor \frac{n}{2} \rfloor) + f(\lfloor 
+**a** Find a closed form for f(n), when n >= 1.  
+**b** Prove that $f(n) = n - 1 + f( \lfloor \frac{n}{2} \rfloor) + f(\lfloor 
 frac{n}{2} \rfloor)$ for all n >= 1.
 
 ## 解法
@@ -332,7 +332,7 @@ frac{n}{2} \rfloor)$ for all n >= 1.
 ### a
 $f(n) = \sum_{j}j[2^{}]$
 
-
+### 
 
 
 
