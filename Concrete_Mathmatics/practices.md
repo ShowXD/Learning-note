@@ -316,7 +316,7 @@ $\sum_{k}kx\[a <= kx <]$
 Prove or disprove $\lfloor x \rfloor + \lfloor y \rfloor + \lfloor x + y \rfloor <= \lfloor 2x \rfloor + \lfloor 2y \rfloor$
 
 ## 解法(窮舉法)
-令 $x = a + i, y = b + j$
+令 $x = a + i, y = b + j$  
 $\therefore \lfloor x \rfloor = a, \lfloor y \rfloor = b, \lfloor x + y \rfloor = a + b + \lfloor i + j \rfloor$
 
 $\therefore \lfloor x \rfloor + \lfloor y \rfloor + \lfloor x + y \rfloor$
