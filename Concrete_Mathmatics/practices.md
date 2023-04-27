@@ -181,7 +181,9 @@ $\text{Try to evaluate} \Sigma{n}{k=0} kH_k \text{by th perturbation method, but
 `會考`
   
 ## 題目
-Evalute the sums $S_n = \sum_{k=0}{n}(-1)^{n-k}, T_n = \sum_{k=0}^{n}(-1)^{n-k}, \text{and} U_{n} = \sum_{k=0}^{n}(-1)^{n-k}k^2$ by the perturbation method, assuming that $n >= 0$
+Evalute the sums 
+$$S_n = \sum_{k=0}{n}(-1)^{n-k}, T_n = \sum_{k=0}^{n}(-1)^{n-k}, \text{and} U_{n} = \sum_{k=0}^{n}(-1)^{n-k}k^2$$
+by the perturbation method, assuming that $n >= 0$
 
 ## 解法
 1. 解$S_n$
@@ -206,7 +208,7 @@ Evalute the sums $S_n = \sum_{k=0}{n}(-1)^{n-k}, T_n = \sum_{k=0}^{n}(-1)^{n-k},
   - $\frac{k}{4^2-1} = \frac{k}{(2k+1)(2k-1)}$
 2. 部分分式分解
   - \frac{k}{(2k+1)(2k-1)} = \frac{A}{2k+1} + \frac{B}{2k-1}
-  <p>其中A、B是自己假設的，接ˋ著同時將等式邊銅城(2k+1)(2k-1) -> k = A(2k-1) = B(2k+1)，接著另$k = 1$</p>
+  <p>其中A、B是自己假設的，接著同時將等式兩邊同乘(2k+1)(2k-1) -> k = A(2k-1) = B(2k+1)，接著另$k = 1$</p>
 3. 
 
 # Chapter
@@ -214,11 +216,11 @@ Evalute the sums $S_n = \sum_{k=0}{n}(-1)^{n-k}, T_n = \sum_{k=0}^{n}(-1)^{n-k},
 ## 解法
 <p>梯形公式算總和能夠分成兩項等式，之後看質因數有幾個，有幾種分配方法給$(n + l)及(k - n + 1)$</p>
 
-$1050 = n + (n + 1) = (n + 2) + ... k$  
-$= \frac{(n+k)(k-n+1)}{2}$
+$$1050 = n + (n + 1) = (n + 2) + ... k$$  
+$$\Rightarrow \frac{(n+k)(k-n+1)}{2}$$
 
-$2100 = (n + k)(k - n + 1) = 2^2 \cdot 3 \cdot 5^2 \cdot 7$
-$(n + k)、(k - n + 1) 屬於正整數$
+$$2100 = (n + k)(k - n + 1) = 2^2 \cdot 3 \cdot 5^2 \cdot 7$$
+$$(n + k)、(k - n + 1) 屬於正整數$$
 
 (n + k)|(k - n + 1)|(n + k) + (k - n + 1) = 2k + 1
 ---|---|---
@@ -324,8 +326,7 @@ $\therefore \lfloor x \rfloor = a, \lfloor y \rfloor = b, \$
 ## 題目
 $$\text{Let} f(n) = \sum_{k=1}^{n} \lceil lg k \rceil$$  
 **a** Find a closed form for f(n), when n >= 1.  
-**b** Prove that $f(n) = n - 1 + f( \lfloor \frac{n}{2} \rfloor) + f(\lfloor 
-frac{n}{2} \rfloor)$ for all n >= 1.
+**b** Prove that $f(n) = n - 1 + f( \lfloor \frac{n}{2} \rfloor) + f(\lfloor frac{n}{2} \rfloor)$ for all n >= 1.
 
 ## 解法
 
