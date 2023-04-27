@@ -1,4 +1,5 @@
 # Chapter 1-6
+`會考`
 
 ## 題目
 <p>
@@ -11,10 +12,10 @@ regions?
 1. 先從 $l_0$ 開始看
 2. 不斷的畫出來
 3. 找出規律
-4. 規律像 $S_(n-2) = (n-1)(n-2)/2 = L_n - 2n$
+4. 規律像 $S_{(n-2)} = (n-1)(n-2)/2 = L_n - 2n$
 
-$R_n = R_(n-1)+(n-2)$  
-$\Rightarrow R_(n-2) + (n-3) + (n-2)$  
+$R_n = R_{n-1}+(n-2)$  
+$\Rightarrow R_{n-2} + (n-3) + (n-2)$  
 $\Rightarrow 1 + 2 + \cdots + (n-3) + (m-2)$  
 $\Rightarrow \frac{(n-2)(1+(n-2))}{2}$  
 $\Rightarrow \frac{(n-2)(n-1)}{2}$  
@@ -32,11 +33,9 @@ Bounded $R_n$|0|0|0|1|3|6|10
 # Chapter 1-8
 
 ## 題目
-<p>
-Solve the recurrence
+Solve the recurrence  
 $Q_0 = \alpha; Q_1 = \beta;$  
-$Q_n = (1 + Q_(n-1))/Q_(n-2)$
-</p>
+$Q_n = (1 + Q_{n-1})/Q_{n-2}$
 
 ## 解法
 1. $Q_0 = \$
@@ -67,9 +66,9 @@ order of all the equal-size disks in the final arrangement?
 4. 把B搬到C
 5. 
 
-$A_n = 2T_n=2(2^n-1)$  
-$\Rightarrow B_n = 4A_(n-1) + 3$  
-$\Rightarrow 2^(n+2) - 5$  
+$$A_n = 2T_n=2(2^n-1)$$
+$$\Rightarrow B_n = 4A_(n-1) + 3$$
+$$\Rightarrow 2^(n+2) - 5$$
 
 ### b
 
@@ -79,7 +78,7 @@ $\Rightarrow 2^(n+2) - 5$
 
 ## 題目
 <p>
-How many pieces of cheese can you obtain from a single thick piece by making ve straight slices? (The cheese must stay in its original position while you do all the cutting, and each slice must correspond to a plane in 3D.) Find a recurrence relation for Pn, the maximum number of threedimensional regions that can be dened by n different planes.
+How many pieces of cheese can you obtain from a single thick piece by making five straight slices? (The cheese must stay in its original position while you do all the cutting, and each slice must correspond to a plane in 3D.) Find a recurrence relation for Pn, the maximum number of threedimensional regions that can be dened by n different planes.
 </p>
 
 ## 解法
@@ -90,16 +89,16 @@ $P_0 = 1$
 $L_n = 1 + \frac{n(n+1)}{2}$  
 
 n|0|1|2|3|4|5
----|---|---|---|---|---|---
+:---:|:---:|:---:|:---:|:---:|:---:|:---:
 0|1|1|1|1|1
 1|1|2|3|4|5|6
 2|1|2|4|7|11|16
 3|1|4|8|15|26
 
 ### Three dimensional
-$P_n = P_(n-1) + L_(n-1)$  
-$\Rightarrow P_(n-2) + L_(n-2) + (1 + \frac{{n-1}n}{2})$  
-$\Rightarrow P_(n-3) + L_(n-3) + (1 + \frac{{n-2}{n-1}}{2}) + (1 + \frac{(n-1)n}{2})$  
+$P_n = P_{n-1} + L_{n-1}$  
+$\Rightarrow P_{n-2} + L_{n-2} + (1 + \frac{{n-1}n}{2})$  
+$\Rightarrow P_{n-3} + L_{n-3} + (1 + \frac{{n-2}{n-1}}{2}) + (1 + \frac{(n-1)n}{2})$  
 $\Rightarrow P_0 + L_0 + (1 + \frac{1*2}{2}) + (1 + \frac{2*3}{2}) + \cdots + (1 + \frac{(n-1)n}{2})$  
 $\Rightarrow 1 + 1 + (n-1) + \frac{\frac{(n-1)n(n-2)}{3}}{2}$  
 $\Rightarrow 1 + n + \frac{n^3 - n}{6} = \frac{n^3 + 5n + 6}{6}$
@@ -109,7 +108,6 @@ $\Rightarrow 1 + n + \frac{n^3 - n}{6} = \frac{n^3 + 5n + 6}{6}$
 # Chapter 2-16
 
 ## 題目
-<p>
 Prove that $x^\underline{m}/(x - n)^\underline{m} = x^\underline{n}/(x-m)^\underline{n}$, unless one of the denominators is zero.
 </p>
 
@@ -147,29 +145,29 @@ $$$$
 
 ## 題目
 $$T_0 = 5$$
-$$2T_n = nT_(n-1) + 3 \dot n!, \text{for n > 0.}$$
+$$2T_n = nT_(n-1) + 3 \cdot n!, \text{for n > 0.}$$
 
 ## 解法
 
 ### 方法1
-$2 \dot \frac{2^(n-1)}{n!} T_n = \frac{2^(n-1)}{n!} \dot nT_(n-1) + 3\dot n! \frac{2^(n-1)}{n!}$
+$2 \cdot \frac{2^(n-1)}{n!} T_n = \frac{2^(n-1)}{n!} \cdot nT_(n-1) + 3\cdot n! \frac{2^(n-1)}{n!}$
 
 ### 方法2
-$a_nT_n = BnT_(n-1) + C_n$  
-$\Rightarrow S_n A_n T_n = S_n b_n T_(n-1) + S_n C_n$  
-$\Rightarrow S_n = S_(n-1) + S_n C_n$  
+$a_nT_n = BnT_{n-1} + C_n$  
+$\Rightarrow S_n A_n T_n = S_n b_n T_{n-1} + S_n C_n$  
+$\Rightarrow S_n = S_{n-1} + S_n C_n$  
 
 $\Rightarrow S_n = S_0 + \sigma{i=1}{n} S_i C_i$  
-$\Rightarrow S_0  a_0 $
+$\Rightarrow S_0 a_0 $
 
-$a_n = 2, b_n = n, C_n = 3\dot n!, T_0 = 5$
+$a_n = 2, b_n = n, C_n = 3\cdot n!, T_0 = 5$
 
 ---
 
 # Chapter 2-20
 
 ## 題目
-$\text{Try to evaluate} \Sigma{n}{k=0} kH_k \text{by th perturbation method, but deduce the value of} \Sigma{n}{k=0} \text{instead.}$
+Try to evaluate$\Sigma_{n}^{k=0} kH_k$ by th perturbation method, but deduce the value of $\Sigma_{n}^{k=0}$ instead.
 
 ## 解法
   
@@ -186,9 +184,14 @@ $$S_n = \sum_{k=0}{n}(-1)^{n-k}, T_n = \sum_{k=0}^{n}(-1)^{n-k}, \text{and} U_{n
 by the perturbation method, assuming that $n >= 0$
 
 ## 解法
-1. 解$S_n$
-2. 解$U_n$
-3. 解$T_n$
+1. 計算$S_n$  
+$S_n = \sum_{k=0}^{n}(-1)^{n-k}$  
+$S_{n+1} = \sum_{k=0}^{n+1}(-1)^{n+1+k}$  
+$\Rightarrow (-1)^{n+1} + \sum_{k=0}^{n}(-1)^{n-k}$  
+$\Rightarrow (-1)^{n+1} + \sum_{k=1}^{n+1}(-1)^{n+1-k}$  
+$\Rightarrow (-1)^{n+1} + S_n$
+2. 計算$U_n$
+3. 計算$T_n$
 
 # Chapter 2-28
 
@@ -205,16 +208,16 @@ by the perturbation method, assuming that $n >= 0$
 
 ## 解法
 1. 因數分解
-  - $\frac{k}{4^2-1} = \frac{k}{(2k+1)(2k-1)}$
+$$\frac{k}{4^2-1} = \frac{k}{(2k+1)(2k-1)}$$
 2. 部分分式分解
-  - \frac{k}{(2k+1)(2k-1)} = \frac{A}{2k+1} + \frac{B}{2k-1}
-  <p>其中A、B是自己假設的，接著同時將等式兩邊同乘(2k+1)(2k-1) -> k = A(2k-1) = B(2k+1)，接著另$k = 1$</p>
+$$\frac{k}{(2k+1)(2k-1)} = \frac{A}{2k+1} + \frac{B}{2k-1}$$
+其中A、B是自己假設的，接著同時將等式兩邊同乘(2k+1)(2k-1) -> k = A(2k-1) = B(2k+1)，接著另$k = 1$
 3. 
 
 # Chapter
 
 ## 解法
-<p>梯形公式算總和能夠分成兩項等式，之後看質因數有幾個，有幾種分配方法給$(n + l)及(k - n + 1)$</p>
+梯形公式算總和能夠分成兩項等式，之後看質因數有幾個，有幾種分配方法給(n + l)及 (k - n + 1)
 
 $$1050 = n + (n + 1) = (n + 2) + ... k$$  
 $$\Rightarrow \frac{(n+k)(k-n+1)}{2}$$
@@ -223,7 +226,7 @@ $$2100 = (n + k)(k - n + 1) = 2^2 \cdot 3 \cdot 5^2 \cdot 7$$
 $$(n + k)、(k - n + 1) 屬於正整數$$
 
 (n + k)|(k - n + 1)|(n + k) + (k - n + 1) = 2k + 1
----|---|---
+:---:|:---:|:---:
 1050|2|1052
 700|3|703
 
@@ -242,7 +245,7 @@ $\therefore 2*3*2 = 12$
 # Chapter 3-3
 
 ## 題目
-$\text{Evalute} \lfloor \lfloor m \alpha $
+Evalute $\lfloor \lfloor m \alpha \rfloor n/ \alpha \rfloor$, when m and n are postive integers and $\alpha$ irrational number greater than n.
 
 ## 解法
 `fraction 分解`
@@ -266,7 +269,7 @@ $\lfloor \lfloor mn \rfloor \rfloor$
 1. 
 
 $\frac{n}{m} = \lfloor \frac{n}{m} \rfloor + {\frac{n}{m}}$  
-$\therefor n = \lfloor \frac{n}{m} \rfloor + (n mod m), \lfloor \frac{n}{m} \rfloor$
+$\therefore n = \lfloor \frac{n}{m} \rfloor + (n mod m), \lfloor \frac{n}{m} \rfloor$
 
 ---
 
@@ -299,7 +302,7 @@ B mod y = A
 
 ---
 
-#　Chapter 3-20
+# Chapter 3-20
 
 ## 題目
 <p>Find the sum of all multiples of x in the closed inteval [\alpha .. \beta], whem x > 0</p>
@@ -329,10 +332,11 @@ $\Rightarrow 2a + 2b + \lfloor 2i \rfloor + \lfloor 2j \rfloor$
 
 最後變成 $\lfloor i + j \rfloor <= \lfloor 2i \rfloor + \lfloor 2i \rfloor$  
 <p>而他可分成</p>
+
 * $\lfloor i + j \rfloor = 0$
-  - i, j 都 < 0.5
-    * asdf 
-  - i, j 一個 < 0.5, 一個 >= 0.5
+  - i, j 都 < 0.5 $\Rightarrow \lfloor 2i \rfloor + \lfloor 2j \rfloor = 0$
+  - i, j 一個 < 0.5, 一個 >= 0.5 $\Rightarrow \lfloor 2i \rfloor + \lfloor 2j \rfloor = 1$
+  
 * $\lfloor i + j \rfloor = 1$
   - i, j 一個 < 0.5, 一個 >= 0.5
   - i, j 都 >= 0.5
@@ -351,7 +355,17 @@ $$\text{Let} f(n) = \sum_{k=1}^{n} \lceil lg k \rceil$$
 ### a
 $f(n) = \sum_{j}j[2^{}]$
 
-### 
+### b
 
+---
 
+# Chapter 3-35
 
+## 題目
+Simplefly
+
+## 解法
+
+# 會考
+$K^3 = K^3 + 3K^2 + K^1$
+$\Rightarrow \sum K^\underline3$
