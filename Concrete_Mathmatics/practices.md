@@ -322,7 +322,7 @@ $\therefore \lfloor x \rfloor = a, \lfloor y \rfloor = b, \$
 # Chapter 3-34
 
 ## 題目
-$\text{Let} f(n) = \sum_{k=1}^{n} \lceil lg k \rceil$  
+$$\text{Let} f(n) = \sum_{k=1}^{n} \lceil lg k \rceil$$  
 **a** Find a closed form for f(n), when n >= 1.  
 **b** Prove that $f(n) = n - 1 + f( \lfloor \frac{n}{2} \rfloor) + f(\lfloor 
 frac{n}{2} \rfloor)$ for all n >= 1.
