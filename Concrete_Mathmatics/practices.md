@@ -178,6 +178,7 @@ $\text{Try to evaluate} \Sigma{n}{k=0} kH_k \text{by th perturbation method, but
 
 
 # Chapter 2-21
+`會考`
   
 ## 題目
 Evalute the sums $S_n = \sum_{k=0}{n}(-1)^{n-k}, T_n = \sum_{k=0}^{n}(-1)^{n-k}, \text{and} U_{n} = \sum_{k=0}^{n}(-1)^{n-k}k^2$ by the perturbation method, assuming that $n >= 0$
@@ -238,22 +239,98 @@ $\therefore 2*3*2 = 12$
 
 # Chapter 3-3
 
-## 
+## 題目
+$\text{Evalute} \lfloor \lfloor m \alpha $
+
+## 解法
 `fraction 分解`
 
-$\lfoor$\lfloor mn$ 
+$\lfloor \lfloor mn \rfloor \rfloor$ 
 
+---
 
+# Chapter 3-12
+`證明題`
 
+## 題目
+<p>
+  Prove that
+  $\lceil \frac{n}{m} \rceil = \lfloor \frac{n + m - 1}{m} \rfloor$
+  for all integers n and all postive intergers m.
+</p>
 
+## 解法
+`套3.6的公式`
+1. 
 
+$\frac{n}{m} = \lfloor \frac{n}{m} \rfloor + {\frac{n}{m}}$  
+$\therefor n = \lfloor \frac{n}{m} \rfloor + (n mod m), \lfloor \frac{n}{m} \rfloor$
 
+---
 
+# Chapter 3-14
+## 題目
 
+## 解法(代數)
+令 $x mod y$ = A
+令 $x mod ny$ = B
+$\therefore 
 
+$x = py + A, x = q(ny) +B$
+$B = x - q(ny) = py + A - qny = (p- qn)y A$
 
+B = K(ny)+ A
+B mod y = A
 
+---
 
+# Chapter 3-19
+1. 設 m = 
+2. 該等式等價於
+3. 如果 b 是整數，那上述自子等價於
+  - $b^m <= x < b^{m + 1}$
+  - $log_b(x-1) < m <= log_bx$，m滿足該條件
+4. 如果 b 不是整數，取 x = b
+  - $\lfloor log_bx \rfloor = 1$
+  - $\lfloor log_b\lfloor x \rfloor \rfloor = 0$
+5. 因此充要條件 b 是整數
+
+---
+
+#　Chapter 3-20
+
+## 題目
+<p>Find the sum of all multiples of x in the closed inteval [\alpha .. \beta], whem x > 0</p>
+
+## 解法
+$\sum_{k}kx\[a <= kx <]$
+
+---
+
+# Chapter 3-31
+`會考`
+
+## 題目
+$\text{Prove or disprove} \lfloor x \rfloor$
+
+## 解法(窮舉法)
+令$x = a + i, y = b + j$
+$\therefore \lfloor x \rfloor = a, \lfloor y \rfloor = b, \$
+
+---
+
+# Chapter 3-34
+
+## 題目
+$\text{Let} f(n) = \sum_{k=1}^{n} \lceil lg k \rceil$  
+\bf{a} Find a closed form for f(n), when n >= 1.  
+\bf{b} Prove that $f(n) = n - 1 + f( \lfloor \frac{n}{2} \rfloor) + f(\lfloor 
+frac{n}{2} \rfloor)$ for all n >= 1.
+
+## 解法
+
+### a
+$f(n) = \sum_{j}j[2^{}]$
 
 
 
