@@ -173,4 +173,9 @@ $\text{Try to evaluate} \Sigma{n}{k=0} kH_k \text{by th perturbation method, but
 ## 解法
 $S_n = \Sigma{n}{k=0}kH_k$  
 多加一項$S_n + (n+1)H_(n+1)$
-$$
+
+# Chapter 2-16
+  
+## 題目
+  
+## 解法
