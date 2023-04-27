@@ -327,9 +327,15 @@ $\therefore \lfloor 2x \rfloor + \lfloor 2y \rfloor$
 $\Rightarrow 2a + \lfloor 2i \rfloor + 2b + \lfloor 2j \rfloor$
 $\Rightarrow 2a + 2b + \lfloor 2i \rfloor + \lfloor 2j \rfloor$  
 
-$\therefore \lfloor i + j \rfloor <= \lfloor 2i \rfloor + \lfloor 2i \rfloor$  
-<p>可分成</p>
-- $$
+最後變成 $\lfloor i + j \rfloor <= \lfloor 2i \rfloor + \lfloor 2i \rfloor$  
+<p>而他可分成</p>
+* $\lfloor i + j \rfloor = 0$
+  - i, j 都 < 0.5
+    * asdf 
+  - i, j 一個 < 0.5, 一個 >= 0.5
+* $\lfloor i + j \rfloor = 1$
+  - i, j 一個 < 0.5, 一個 >= 0.5
+  - i, j 都 >= 0.5
 
 ---
 
