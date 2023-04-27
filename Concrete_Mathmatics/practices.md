@@ -141,11 +141,12 @@ Show that the following formulas can be used to convert between rising
 and falling factorial powers, for all integers m:
 $$$$
 
+---
+
 # Chapter 2-19
 
 ## 題目
-<p>Use a summation factor to solve the recurrence
-$$T_0 = 5;$$
+$$T_0 = 5$$
 $$2T_n = nT_(n-1) + 3 \dot n!, \text{for n > 0.}$$
 
 ## 解法
@@ -157,7 +158,7 @@ $2 \dot \frac{2^(n-1)}{n!} T_n = \frac{2^(n-1)}{n!} \dot nT_(n-1) + 3\dot n! \fr
 $a_nT_n = BnT_(n-1) + C_n$  
 $\Rightarrow S_n A_n T_n = S_n b_n T_(n-1) + S_n C_n$  
 $\Rightarrow S_n = S_(n-1) + S_n C_n$  
-<p>帶入<\p>
+
 $\Rightarrow S_n = S_0 + \sigma{i=1}{n} S_i C_i$  
 $\Rightarrow S_0  a_0 $
 
@@ -171,11 +172,86 @@ $a_n = 2, b_n = n, C_n = 3\dot n!, T_0 = 5$
 $\text{Try to evaluate} \Sigma{n}{k=0} kH_k \text{by th perturbation method, but deduce the value of} \Sigma{n}{k=0} \text{instead.}$
 
 ## 解法
-$S_n = \Sigma{n}{k=0}kH_k$  
-多加一項$S_n + (n+1)H_(n+1)$
+  
+  
+---
 
-# Chapter 2-16
+
+# Chapter 2-21
   
 ## 題目
-  
+Evalute the sums $S_n = \sum_{k=0}{n}(-1)^{n-k}, T_n = \sum_{k=0}^{n}(-1)^{n-k}, \text{and} U_{n} = \sum_{k=0}^{n}(-1)^{n-k}k^2$ by the perturbation method, assuming that $n >= 0$
+
 ## 解法
+1. 解$S_n$
+2. 解$U_n$
+3. 解$T_n$
+
+# Chapter 2-28
+
+## 題目
+
+## 解法
+`Sigma之間不能直接調換`
+
+---
+
+# Chapter 2-29
+
+## 題目
+
+## 解法
+1. 因數分解
+  - $\frac{k}{4^2-1} = \frac{k}{(2k+1)(2k-1)}$
+2. 部分分式分解
+  - \frac{k}{(2k+1)(2k-1)} = \frac{A}{2k+1} + \frac{B}{2k-1}
+  <p>其中A、B是自己假設的，接ˋ著同時將等式邊銅城(2k+1)(2k-1) -> k = A(2k-1) = B(2k+1)，接著另$k = 1$</p>
+3. 
+
+# Chapter
+
+## 解法
+<p>梯形公式算總和能夠分成兩項等式，之後看質因數有幾個，有幾種分配方法給$(n + l)及(k - n + 1)$</p>
+$1050 = n + (n + 1) = (n + 2) + ... k$  
+$= \frac{(n+k)(k-n+1)}{2}$
+
+$2100 = (n + k)(k - n + 1) = 2^2 \dot 3 \dot 5^2 \dot 7$
+$(n + k)、(k - n + 1) 屬於正整數$
+
+(n + k)|(k - n + 1)|(n + k) + (k - n + 1) = 2k + 1
+---|---|---
+1050|2|1052
+700|3|703
+
+<p>2k+1 = 1052</p>
+<p>2k = 1051</p>
+<p>k = 525.5(X)</p>
+
+<p>2k + 1 = 703</p>
+<p>2k = 702</p>
+<p>k = 351</p>
+
+$\therefore 2*3*2 = 12$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
