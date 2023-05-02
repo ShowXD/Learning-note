@@ -29,4 +29,8 @@ $$J(\theta) = -\frac{1}{T}logL(\theta)=-\frac{1}{T}\sum_{t=1}^{T} \sum_{-m<=j<=m
 $$P(o|c)=\frac{exp(u_{o}^{T}v_{c})}{\sum_{w \epsilon V}exp(u_{w}^{T}v_{c})}$$
 
 ##### gradient descent
+##### loss function
+* sigmoid
+$$f(x)=\frac{1}{1+e^{-x}}=(\frac{1}{1+e^{-x}})^{'}=\frac{0-[1 \cdot (-1) \cdot e^{-x}]}{(1+e^{-x})^2}=\frac{1 \cdot e^{-x}}{(1+e^{-x})^2}=\frac{1}{1+e^{-x}} \dot $$
+
 
