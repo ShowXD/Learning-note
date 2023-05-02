@@ -14,6 +14,17 @@
 
 ## Common method for getting short dense vectors
 ### Word2vec
+* Count based**(Old)**
+  - Fast training
+  - efficient usage of statistics
+  - primarily used to capture word similarity
+  - disproportionate importance given to large counts
+* Direct prediction**(New)**
+  - scales with corpus size
+  - inefficient usage of statistics
+  - generate imporved performance on other tasks
+  - can capture complex patterns beyond word similarity
+
 #### Model
 ##### Continuous Bag of Words(CBOW)
 `predict center word from bag of context words`
