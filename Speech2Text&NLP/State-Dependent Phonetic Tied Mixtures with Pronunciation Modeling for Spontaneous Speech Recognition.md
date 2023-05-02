@@ -14,8 +14,10 @@
 
 ## Common method for getting short dense vectors
 ### Word2vec
-#### w-word
-`這個單字的前後w個字一起計算`
+#### Skip-Gram
 
-#### self-supervision
+##### Negative sampling
+$$J(theta) = -\frac{1}{T}logL(theta)=-\frac{1}{T}\sum_{t=1}^{T} \sum_{-m<=j<=m, j!=0}logP(W_{t+j}|w_t;theta)$$
 
+#### prediction function
+$$P(o|c)=\frac{exp(u_{o}^{T}v_{c})}{\sum_{wEV}exp(u_{w}^{T}v_{c})}$$
