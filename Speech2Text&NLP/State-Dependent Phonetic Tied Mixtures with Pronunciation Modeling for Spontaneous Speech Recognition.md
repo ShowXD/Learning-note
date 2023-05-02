@@ -14,10 +14,19 @@
 
 ## Common method for getting short dense vectors
 ### Word2vec
-#### Skip-Gram
+#### Model
+##### Continuous Bag of Words(CBOW)
+`predict center word from bag of context words`
 
+##### Skip-Gram
+`predict context outside words position independent given center word`
+
+#### Training
 ##### Negative sampling
 $$J(\theta) = -\frac{1}{T}logL(\theta)=-\frac{1}{T}\sum_{t=1}^{T} \sum_{-m<=j<=m, j\neq0}logP(W_{t+j}|w_t;\theta)$$
 
 #### prediction function
 $$P(o|c)=\frac{exp(u_{o}^{T}v_{c})}{\sum_{w \epsilon V}exp(u_{w}^{T}v_{c})}$$
+
+##### gradient descent
+
