@@ -11,3 +11,11 @@
 * 對角線、substition(一樣)
 * 水平: insertion
 * 垂直: deletion
+
+## Common method for getting short dense vectors
+### Word2vec
+#### w-word
+`這個單字的前後w個字一起計算`
+
+#### self-supervision
+
