@@ -1,5 +1,6 @@
 # Chapter 1-6
 `會考`
+[P.30](https://www.csie.ntu.edu.tw/~r97002/temp/Concrete%20Mathematics%202e.pdf)
 
 ## 題目
 <p>
