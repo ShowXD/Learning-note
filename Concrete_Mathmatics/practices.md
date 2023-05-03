@@ -1,6 +1,5 @@
 # Chapter 1-6
 `會考`
-[P.30](https://www.csie.ntu.edu.tw/~r97002/temp/Concrete%20Mathematics%202e.pdf)
 
 ## 題目
 <p>
@@ -17,7 +16,7 @@ regions?
 
 $R_n = R_{n-1}+(n-2)$  
 $\Rightarrow R_{n-2} + (n-3) + (n-2)$  
-$\Rightarrow 1 + 2 + \cdots + (n-3) + (-2)$  
+$\Rightarrow 1 + 2 + \cdots + (n-3) + (m-2)$  
 $\Rightarrow \frac{(n-2)(1+(n-2))}{2}$  
 $\Rightarrow \frac{(n-2)(n-1)}{2}$  
 
@@ -65,11 +64,10 @@ order of all the equal-size disks in the final arrangement?
 2. 把最下層搬到B
 3. 再把兩層的搬到A
 4. 把B搬到C
-5. 
 
-$$A_n = 2T_n=2(2^n-1)$$
-$$\Rightarrow B_n = 4A_(n-1) + 3$$
-$$\Rightarrow 2^(n+2) - 5$$
+$A_n = 2T_n=2(2^n-1)$
+$\Rightarrow B_{n} = 4A_{n-1} + 3$
+$\Rightarrow 2^{n+2} - 5$
 
 ### b
 
@@ -83,26 +81,37 @@ How many pieces of cheese can you obtain from a single thick piece by making fiv
 </p>
 
 ## 解法
+`遞迴`
 
 ### Two dimensional
+$L_n = L_{n-1}+n$  
+$\Rightarrow L_{n-2}+(n-1)+n$  
+$\Rightarrow L_{n-3}+(n-2)+(n-1)+n$  
+$\Rightarrow L_{0}+1+2+\cdots+n$  
+$\Rightarrow 1+\frac{n(n+1)}{2}$  
+
 $L_0 = 1$  
 $P_0 = 1$  
 $L_n = 1 + \frac{n(n+1)}{2}$  
 
 n|0|1|2|3|4|5
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
-0|1|1|1|1|1
+0|1|1|1|1|1|1
 1|1|2|3|4|5|6
 2|1|2|4|7|11|16
 3|1|4|8|15|26
 
+1. 
+
 ### Three dimensional
-$P_n = P_{n-1} + L_{n-1}$  
-$\Rightarrow P_{n-2} + L_{n-2} + (1 + \frac{{n-1}n}{2})$  
-$\Rightarrow P_{n-3} + L_{n-3} + (1 + \frac{{n-2}{n-1}}{2}) + (1 + \frac{(n-1)n}{2})$  
+答案: $P_n = P_{n-1} + L_{n-1}$  
+$\Rightarrow P_{n-2} + L_{n-2} + (1 + \frac{{(n-1)}n}{2})$  
+$\Rightarrow P_{n-3} + L_{n-3} + (1 + \frac{(n-2)(n-1)}{2}) + (1 + \frac{(n-1)n}{2})$  
 $\Rightarrow P_0 + L_0 + (1 + \frac{1*2}{2}) + (1 + \frac{2*3}{2}) + \cdots + (1 + \frac{(n-1)n}{2})$  
+$\because(1*2)+(2*3)+\cdots+((n-1)*n) \therefore \frac{n(n+1(n+2))}{3}$  
 $\Rightarrow 1 + 1 + (n-1) + \frac{\frac{(n-1)n(n-2)}{3}}{2}$  
-$\Rightarrow 1 + n + \frac{n^3 - n}{6} = \frac{n^3 + 5n + 6}{6}$
+$\Rightarrow 1 + n + \frac{n^3 - n}{6} = \frac{n^3 + 5n + 6}{6}$  
+$\therefore 證明了P_n = P_{n-1} + L_{n-1}$是對的
 
 ---
 
@@ -110,58 +119,183 @@ $\Rightarrow 1 + n + \frac{n^3 - n}{6} = \frac{n^3 + 5n + 6}{6}$
 
 ## 題目
 Prove that $x^\underline{m}/(x - n)^\underline{m} = x^\underline{n}/(x-m)^\underline{n}$, unless one of the denominators is zero.
-</p>
 
 ## 解法
-`參照2.52的式子即可求出`
+`參照2.52的式子即可求出`  
+[P.65](https://www.csie.ntu.edu.tw/~r97002/temp/Concrete%20Mathematics%202e.pdf)  
+$x^{\underline{2-3}} = x^{\underline 2}(x-2)^{\underline{-3}} = x(x-1) \frac{1}{(x-1)x(x+1)} = \frac{1}{x+1} = x ^{\underline{-1}}$
 
 ### 方法1
 $x^\underline{m+n} = x^\underline{m}(x - m)^\underline{n}$  
 $\Rightarrow x^\underline{n}(x - n)^\underline{m}$  
 
 ### 方法2
-When n > 0
+When n > 0,  
+$x^{\underline n} = x(x-1)(x-2) \cdots (x-n+1)
+ = x^{!}/(x-n)^{!}$  
+ 
+When n < 0,  
+$x^{\underline n} = 1/(x+1)(x+2) \cdots (x-n)$
 
-### Case 1: n > 0
+When n = 0,  
+$x^{\underline n} = 1$
+ 
+### Case 1: n = 0 and m=0
+`直接帶入`  
+$x^{\underline 0}/x^{\underline 0} = x^{\underline 0}/x^{\underline 0}$
 
 ### Case 2: n > 0 and m < 0
+`直接帶入`  
+$\frac{x^{\underline m}}{(x-m)^{\underline m}} = \frac{\frac{1!}{(x-m)!}}{\frac{(x-m)!}{(x-n-m)!}}$  
+$\Rightarrow \frac{x!(x-n-m)!}{(x-n)!(x-m)!}$
+
+$\frac{x^{\underline n}}{(x-m)^{\underline n}} = \frac{\frac{1!}{(x-n)!}}{\frac{(x-m)!}{(x-n-m)!}}$  
+$\Rightarrow \frac{x!(x-n-m)!}{(x-n)!(x-m)!}$
 
 ### Case 3: n < 0 and m < 0
-`assume n <= m < 0`
+`assume n <= m < 0`  
+$\frac{x^{\underline n}}{(x-n)^{\underline n}} = \frac{\frac{1}{(x+1)-(x-m)}}{\frac{1}{(x-m+1) \cdots (x-n-m)}}$  
+$\Rightarrow \frac{(x-n+1) \cdots (x-n-m)}{(x+1)!(x-m)}$
+
+$\frac{x^{\underline n}}{(x-m)^{\underline n}} = \frac{\frac{1}{(x+1)-(x-n)}}{\frac{1}{(x-n+1) \cdots (x-n-m)}}$  
+$\Rightarrow \frac{(x-m+1) \cdots (x-n-m)}{(x+1)!(x-n)}$
 
 ### Case 4: n < 0 and m > 0
+#### sub-case *a*
+`m-n>=1`
+
+#### sub-case *b*
+`m-n<=1`
+
+### Case 5: n > 0 and m < 0
+`symmertrical to case 4`
 
 ---
 
 # Chapter 2-17
 
 ## 題目
-Show that the following formulas can be used to convert between rising
-and falling factorial powers, for all integers m:
-$$$$
+<p>
+Show that the following formulas can be used to convert between rising and falling factorial powers, for all integers m:
+</p>
+
+$x^{\overline m} = (-1)^{m}(-x)^{\underline m} = (x-m+1)^{\underline m} = 1/(x+1)^{\underline{-m}}$
+$x^{\underline m} = (-1)^{m}(-x)^{\overline m} = (x-m+1)^{\overline m} = 1/(x+1)^{\overline{-m}}$
+
+### 額外補充
+* $x^{\overline m}$  
+    * $m > 0, x(x-1)(x-2) \cdots (x-m+1)$
+    * $m = 0, 1$
+    * $m < 0, \frac{1}{(x+1)(x+2) \cdots (x-m-1)(x-m)}$
+* $x^{\underline m}$
+    * $m > 0, x(x+1)(x+2) \cdots (x+m)(x+m-1)$
+    * $m = 0, 1$
+    * $m < 0, \frac{1}{(x-1)(x-2) \cdots (x+m+1)(x+m)}$
+
+## 解法
+`帶出來比對就會發現相等`
+
+### $x^{\overline m}$
+* if m > 0
+  * [將-1分別乘進每個元素]  
+  $(-1)^{m}(-x)^{\underline m} = (-1)^m(-x)(-x-1) \cdots (-x-m+1)$  
+  $=x(x+1) \cdots (x+m-1)$
+
+  * [將(x+m-1)當成x帶入]  
+  $(x+m-1)^{\underline m} = (x+m-1)(x+m-1-1) \cdots (x+m-1-m+1)$  
+  $=(x+m-1)(x+m-2) \cdots (x+1)(x)$
+  $=x(x+1) \cdots (x+m-2)(x+m-1)$
+  
+  * [分母的(x-1)分別乘入$\frac{1}{x-1}$]  
+  $1/(x-1)^{-m} = \frac {1}{\frac{1}{(x-1+1)(x-1+2) \cdots (x-1-k)}}$  
+  $=x(x+1) \cdots (x-1-k)$  
+  $=x(x+1) \cdots (x+m-1)$
+
+* if m = 0
+  * $(-1)^{m}(-x)^{\underline m} = 1$
+  * $(x+m-1)^{\underline m} = 1$
+  * $1/(x-1)^{-m} = 1$
+
+* if m < 0
+  * $(-1)^{m}(-x)^{\underline m} = (-1)^{m}*\frac{1}{(-x+1)(-x+2) \cdots (-x-m)}$  
+  $=\frac{1}{(x-1)(x-2) \cdots (x+m)}$
+  
+  * $(x+m-1)^{\underline m} = \frac{1}{(x+m-1+1)(x-m-1+2) \cdots (x+m-1-m)}$  
+  $=\frac{1}{(x+m)(x+m+1) \cdots (x-1)}$  
+  $=\frac{1}{(x-1) \cdots (x+m+1)(x+m)}$
+  
+  * $1/(x-1)^{-m} = \frac{1}{(x-1)(x+1-1) \cdots (x-1-(-m)+1)}$  
+  $=\frac{1}{(x-1)(x-2) \cdots (x+m)}$
+  
+
+## $x^{\underline m}$
+* if m > 0
+  * $(-1)^{m}(-x)^{\underline m} = (-1)^m(-x)(-x-1) \cdots (-x-m+1)$  
+  $=x(x+1) \cdots (x+m-1)$
+
+  * $x+m-1^{\underline m} = (x-m+1)(x-m+1+1) \cdots (x-m+1+m-1)$  
+  $=(x-m+1)(x-m) \cdots (x-1)(x)$  
+  $=x(x-1) \cdots (x+m+1)$
+  
+  * $1/(x-1)^{-m} = \frac {1}{\frac{1}{(x+1-1)(x+1-2) \cdots (x+1-k)}}$  
+  $=x(x-1) \cdots (x+1-k)$  
+  $=x(x-1) \cdots (x-m+1)$
+
+* if m = 0
+  * $(-1)^{m}(-x)^{\underline m} = 1$
+  * $(x+m-1)^{\underline m} = 1$
+  * $1/(x-1)^{-m} = 1$
+
+* if m < 0
+  * $(-1)^{m}(-x)^{\underline m} = (-1)^{m}*\frac{1}{(-x-1)(-x-2) \cdots (-x+m)}$  
+  $=\frac{1}{(x+1)(x+2) \cdots (x-m)}$
+  
+  * $(x-m+1)^{\underline m} = \frac{1}{(x-m+1-1)(x-m+1-2) \cdots (x-m+1-m)}$  
+  $=\frac{1}{(x+1) \cdots (x-m-1)(x-m)}$
+  
+  * $1/(x+1)^{-m} = \frac{1}{(x+1)(x+1+1) \cdots (x+1+(-m)-1)}$  
+  $=\frac{1}{(x+1)(x+2) \cdots (x-m)}$
 
 ---
 
 # Chapter 2-19
+`可能考`
 
 ## 題目
-$$T_0 = 5$$
-$$2T_n = nT_(n-1) + 3 \cdot n!, \text{for n > 0.}$$
+<p>
+Use a summation factor to solve the recurrence
+</p>
+
+$T_0 = 5;$
+$2T_n = nT_{n-1} + 3 \cdot n!, \text{for n > 0.}$
+
+### 額外補充
+* $T_0 = 5$
+* $T_1 = \frac{1 \cdot 5 + 3 \cdot 1}{2}=4$
+* $T_2 = \frac{2 \cdot 4 + 3 \cdot 2 \cdot 1}{2}=7$
+* $T_3 = \frac{3 \cdot 7 + 3 \cdot3 \cdot 2 \cdot 1}{2}=\frac{39}{2}$
+* $T_4 = \frac{4 \cdot \frac{39}{2} +3 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{2}=75$
+* $T_5 = \frac{1 \cdot 5 + 3 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{2}=\frac{735}{2}$  
+$\therefore T_n = \frac{n \cdot T_{n-1} + 3 \cdot n!}{2}$
 
 ## 解法
 
 ### 方法1
-$2 \cdot \frac{2^(n-1)}{n!} T_n = \frac{2^(n-1)}{n!} \cdot nT_(n-1) + 3\cdot n! \frac{2^(n-1)}{n!}$
+$2 \cdot \frac{2^{n-1}}{n!} T_n = \frac{2^{n-1}}{n!} \cdot nT_{n-1} + 3\cdot n! \frac{2^{n-1}}{n!}$  
+$\Rightarrow \frac{2^n}{n!}T_n = \frac{2^{n-1}}{(n-1)!}T_{n-1} + 3 \cdot 2^{n-1}$
 
 ### 方法2
-$a_nT_n = BnT_{n-1} + C_n$  
-$\Rightarrow S_n A_n T_n = S_n b_n T_{n-1} + S_n C_n$  
-$\Rightarrow S_n = S_{n-1} + S_n C_n$  
+$[將題目看成]a_nT_n = B_nT_{n-1} + c_n$  
+$[同乘S_n]\Rightarrow S_n a_n T_n = S_n b_n T_{n-1} + S_n c_n$  
+$[定義S_nb_n=S_{n-1}a_{n-1}]\Rightarrow S_n = S_{n-1} + S_n c_n$  
+$\Rightarrow S_n = S_0 + \sum_{i=1}^{n} S_i c_i$  
+$\Rightarrow S_0 a_0 T_0 + \sum_{i=1}^{n}S_i c_i$  
+$\Rightarrow S_1 b_1 T_0 + \sum_{i=1}^{n}S_i c_i$
 
-$\Rightarrow S_n = S_0 + \sigma{i=1}{n} S_i C_i$  
-$\Rightarrow S_0 a_0 $
+$S_n = S_n a_n T_n$  
+$T_n = \frac{S_n}{S_n a_n}$
 
-$a_n = 2, b_n = n, C_n = 3\cdot n!, T_0 = 5$
+$a_n = 2, b_n = n, c_n = 3 \cdot n!, T_0 = 5$
 
 ---
 
