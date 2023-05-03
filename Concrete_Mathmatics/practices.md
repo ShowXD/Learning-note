@@ -16,7 +16,7 @@ regions?
 
 $R_n = R_{n-1}+(n-2)$  
 $\Rightarrow R_{n-2} + (n-3) + (n-2)$  
-$\Rightarrow 1 + 2 + \cdots + (n-3) + (m-2)$  
+$\Rightarrow 1 + 2 + \cdots + (n-3) + (-2)$  
 $\Rightarrow \frac{(n-2)(1+(n-2))}{2}$  
 $\Rightarrow \frac{(n-2)(n-1)}{2}$  
 
