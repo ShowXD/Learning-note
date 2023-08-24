@@ -22,8 +22,6 @@ def hello_user(username):
 def hello_userid(userid):
     return "Hello, " + userid
 ```
-![螢幕擷取畫面 2023-07-14 174052](https://github.com/ShowXD/Learning-note/assets/29877260/6e3918f3-8f96-4f93-8d07-5fc9147c7af5)
-
 
 ![image](https://user-images.githubusercontent.com/29877260/208165574-68b3a822-4564-417d-ae97-70904aeaa32b.png)
 
