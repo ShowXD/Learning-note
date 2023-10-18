@@ -47,7 +47,7 @@ path('(想要的名稱 hello)/', 哪個功能的 view),
 - 紀錄你在檔案裡更新哪些東西(Models.py)
 - 紀錄
 ```
-pythom manager.py makemigrations
+python manage.py makemigrations
 ```
 
 ### Migrate
