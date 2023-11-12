@@ -1,6 +1,6 @@
 # Docker
 
-## Command
+## 指令
 * 建立Container
 ```
 docker build [容器名稱]
@@ -20,7 +20,13 @@ docker ps
 ```
 docker ps -a
 ```
+### 基本指令
+* 顯示安裝的版本
+```
+docker version
+```
 
+* 顯示
 
 ## 安裝方法
 ### Windows
